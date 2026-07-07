@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T23:14:19+00:00",
+  "generated_at": "2026-07-07T23:19:01+00:00",
   "default_weights": {
     "growth": 0.3,
     "momentum": 0.25,
@@ -1157,32 +1157,6 @@
       }
     },
     {
-      "ticker": "AKERBP.OL",
-      "name": "Aker BP",
-      "asset_type": "aksje",
-      "sector": "Energi",
-      "score": null,
-      "factor_scores": {
-        "momentum": null,
-        "growth": null,
-        "valuation": null,
-        "reaction": null
-      },
-      "raw_factors": {
-        "momentum_pct": null,
-        "growth_pct": null,
-        "earnings_yield": null,
-        "reaction_pct": null
-      },
-      "horizon": "Usikker horisont",
-      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
-      "next_report_date": null,
-      "latest_close": null,
-      "data_status": "missing",
-      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for AKERBP.OL",
-      "prediction": null
-    },
-    {
       "ticker": "SCHA.OL",
       "name": "Schibsted A",
       "asset_type": "aksje",
@@ -1206,32 +1180,6 @@
       "latest_close": null,
       "data_status": "missing",
       "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for SCHA.OL",
-      "prediction": null
-    },
-    {
-      "ticker": "0P0001BJ8S.IR",
-      "name": "DNB Miljøinvest",
-      "asset_type": "fond",
-      "sector": "Fond - Miljø",
-      "score": null,
-      "factor_scores": {
-        "momentum": null,
-        "growth": null,
-        "valuation": null,
-        "reaction": null
-      },
-      "raw_factors": {
-        "momentum_pct": null,
-        "growth_pct": null,
-        "earnings_yield": null,
-        "reaction_pct": null
-      },
-      "horizon": "Usikker horisont",
-      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
-      "next_report_date": null,
-      "latest_close": null,
-      "data_status": "missing",
-      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for 0P0001BJ8S.IR",
       "prediction": null
     }
   ]
