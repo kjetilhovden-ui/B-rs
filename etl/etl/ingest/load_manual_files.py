@@ -28,6 +28,20 @@ def load_assets(conn: sqlite3.Connection) -> int:
             """,
             asset,
         )
+
+    # assets.yaml is the full source of truth for the universe - a ticker
+    # removed or renamed there (e.g. a corrected symbol) must stop being
+    # fetched and ranked, not linger active forever from an earlier run.
+    current_tickers = [a["ticker"] for a in assets]
+    if current_tickers:
+        placeholders = ",".join("?" * len(current_tickers))
+        conn.execute(
+            f"UPDATE assets SET active = 0 WHERE ticker NOT IN ({placeholders})",
+            current_tickers,
+        )
+    else:
+        conn.execute("UPDATE assets SET active = 0")
+
     conn.commit()
     return len(assets)
 
