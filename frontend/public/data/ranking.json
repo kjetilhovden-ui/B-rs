@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T22:52:58+00:00",
+  "generated_at": "2026-07-07T23:14:19+00:00",
   "default_weights": {
     "growth": 0.3,
     "momentum": 0.25,
@@ -54,9 +54,9 @@
       "name": "Orkla",
       "asset_type": "aksje",
       "sector": "Forbruksvarer",
-      "score": 96.0,
+      "score": 96.29629629629629,
       "factor_scores": {
-        "momentum": 96.0,
+        "momentum": 96.29629629629629,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -95,9 +95,9 @@
       "name": "Entra",
       "asset_type": "aksje",
       "sector": "Eiendom",
-      "score": 92.0,
+      "score": 92.5925925925926,
       "factor_scores": {
-        "momentum": 92.0,
+        "momentum": 92.5925925925926,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -136,9 +136,9 @@
       "name": "DNB Global Indeks",
       "asset_type": "fond",
       "sector": "Fond - Globalt",
-      "score": 88.0,
+      "score": 88.88888888888889,
       "factor_scores": {
-        "momentum": 88.0,
+        "momentum": 88.88888888888889,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -177,9 +177,9 @@
       "name": "DNB Teknologi",
       "asset_type": "fond",
       "sector": "Fond - Teknologi",
-      "score": 84.0,
+      "score": 85.18518518518519,
       "factor_scores": {
-        "momentum": 84.0,
+        "momentum": 85.18518518518519,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -218,9 +218,9 @@
       "name": "Storebrand",
       "asset_type": "aksje",
       "sector": "Finans",
-      "score": 80.0,
+      "score": 81.48148148148148,
       "factor_scores": {
-        "momentum": 80.0,
+        "momentum": 81.48148148148148,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -259,9 +259,9 @@
       "name": "Gjensidige Forsikring",
       "asset_type": "aksje",
       "sector": "Finans",
-      "score": 76.0,
+      "score": 77.77777777777779,
       "factor_scores": {
-        "momentum": 76.0,
+        "momentum": 77.77777777777779,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -300,9 +300,9 @@
       "name": "DNB Norge",
       "asset_type": "fond",
       "sector": "Fond - Norge",
-      "score": 72.0,
+      "score": 74.07407407407408,
       "factor_scores": {
-        "momentum": 72.0,
+        "momentum": 74.07407407407408,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -341,9 +341,9 @@
       "name": "DNB SMB",
       "asset_type": "fond",
       "sector": "Fond - Norge småselskaper",
-      "score": 68.0,
+      "score": 70.37037037037037,
       "factor_scores": {
-        "momentum": 68.0,
+        "momentum": 70.37037037037037,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -382,9 +382,9 @@
       "name": "Elkem",
       "asset_type": "aksje",
       "sector": "Materialer",
-      "score": 64.0,
+      "score": 66.66666666666666,
       "factor_scores": {
-        "momentum": 64.0,
+        "momentum": 66.66666666666666,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -423,9 +423,9 @@
       "name": "Equinor",
       "asset_type": "aksje",
       "sector": "Energi",
-      "score": 60.0,
+      "score": 62.96296296296296,
       "factor_scores": {
-        "momentum": 60.0,
+        "momentum": 62.96296296296296,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -464,9 +464,9 @@
       "name": "Subsea7",
       "asset_type": "aksje",
       "sector": "Energitjenester",
-      "score": 56.00000000000001,
+      "score": 59.25925925925925,
       "factor_scores": {
-        "momentum": 56.00000000000001,
+        "momentum": 59.25925925925925,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -505,9 +505,9 @@
       "name": "Aker Solutions",
       "asset_type": "aksje",
       "sector": "Energitjenester",
-      "score": 52.0,
+      "score": 55.55555555555556,
       "factor_scores": {
-        "momentum": 52.0,
+        "momentum": 55.55555555555556,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -546,9 +546,9 @@
       "name": "DNB Bank",
       "asset_type": "aksje",
       "sector": "Finans",
-      "score": 48.0,
+      "score": 51.85185185185185,
       "factor_scores": {
-        "momentum": 48.0,
+        "momentum": 51.85185185185185,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -583,13 +583,54 @@
       }
     },
     {
+      "ticker": "0P00000MW4.IR",
+      "name": "DNB Miljøinvest",
+      "asset_type": "fond",
+      "sector": "Fond - Miljø",
+      "score": 48.148148148148145,
+      "factor_scores": {
+        "momentum": 48.148148148148145,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.005589081273942404,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 1777.986572265625,
+      "data_status": "ok",
+      "data_note": null,
+      "prediction": {
+        "latest_close": 1777.986572265625,
+        "basis_days": 43,
+        "week": {
+          "low": 1727.4094153849585,
+          "mid": 1783.697809930481,
+          "high": 1839.9862044760036,
+          "projected_return_pct": 0.003212193924264909
+        },
+        "month": {
+          "low": 1686.6168889374453,
+          "mid": 1801.9737704580211,
+          "high": 1917.330651978597,
+          "projected_return_pct": 0.013491214481912619
+        }
+      }
+    },
+    {
       "ticker": "YAR.OL",
       "name": "Yara International",
       "asset_type": "aksje",
       "sector": "Materialer",
-      "score": 44.0,
+      "score": 44.44444444444444,
       "factor_scores": {
-        "momentum": 44.0,
+        "momentum": 44.44444444444444,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -628,9 +669,9 @@
       "name": "AutoStore Holdings",
       "asset_type": "aksje",
       "sector": "Teknologi",
-      "score": 40.0,
+      "score": 40.74074074074074,
       "factor_scores": {
-        "momentum": 40.0,
+        "momentum": 40.74074074074074,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -669,9 +710,9 @@
       "name": "Telenor",
       "asset_type": "aksje",
       "sector": "Telekom",
-      "score": 36.0,
+      "score": 37.03703703703704,
       "factor_scores": {
-        "momentum": 36.0,
+        "momentum": 37.03703703703704,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -710,9 +751,9 @@
       "name": "Bakkafrost",
       "asset_type": "aksje",
       "sector": "Sjømat",
-      "score": 32.0,
+      "score": 33.33333333333333,
       "factor_scores": {
-        "momentum": 32.0,
+        "momentum": 33.33333333333333,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -747,13 +788,54 @@
       }
     },
     {
+      "ticker": "AKRBP.OL",
+      "name": "Aker BP",
+      "asset_type": "aksje",
+      "sector": "Energi",
+      "score": 29.629629629629626,
+      "factor_scores": {
+        "momentum": 29.629629629629626,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.04042015185748311,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 301.5,
+      "data_status": "ok",
+      "data_note": null,
+      "prediction": {
+        "latest_close": 301.5,
+        "basis_days": 48,
+        "week": {
+          "low": 282.80825186284375,
+          "mid": 297.99742132014285,
+          "high": 313.18659077744195,
+          "projected_return_pct": -0.011617176384269151
+        },
+        "month": {
+          "low": 255.66063522364772,
+          "mid": 286.7891695446,
+          "high": 317.9177038655522,
+          "projected_return_pct": -0.048792140813930435
+        }
+      }
+    },
+    {
       "ticker": "MOWI.OL",
       "name": "Mowi",
       "asset_type": "aksje",
       "sector": "Sjømat",
-      "score": 28.000000000000004,
+      "score": 25.925925925925924,
       "factor_scores": {
-        "momentum": 28.000000000000004,
+        "momentum": 25.925925925925924,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -792,9 +874,9 @@
       "name": "Nordic Semiconductor",
       "asset_type": "aksje",
       "sector": "Teknologi",
-      "score": 24.0,
+      "score": 22.22222222222222,
       "factor_scores": {
-        "momentum": 24.0,
+        "momentum": 22.22222222222222,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -833,9 +915,9 @@
       "name": "Lerøy Seafood Group",
       "asset_type": "aksje",
       "sector": "Sjømat",
-      "score": 20.0,
+      "score": 18.51851851851852,
       "factor_scores": {
-        "momentum": 20.0,
+        "momentum": 18.51851851851852,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -874,9 +956,9 @@
       "name": "Frontline",
       "asset_type": "aksje",
       "sector": "Shipping",
-      "score": 16.0,
+      "score": 14.814814814814813,
       "factor_scores": {
-        "momentum": 16.0,
+        "momentum": 14.814814814814813,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -915,9 +997,9 @@
       "name": "Norwegian Air Shuttle",
       "asset_type": "aksje",
       "sector": "Luftfart",
-      "score": 12.0,
+      "score": 11.11111111111111,
       "factor_scores": {
-        "momentum": 12.0,
+        "momentum": 11.11111111111111,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -956,9 +1038,9 @@
       "name": "TGS",
       "asset_type": "aksje",
       "sector": "Energitjenester",
-      "score": 8.0,
+      "score": 7.4074074074074066,
       "factor_scores": {
-        "momentum": 8.0,
+        "momentum": 7.4074074074074066,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -997,9 +1079,9 @@
       "name": "Norsk Hydro",
       "asset_type": "aksje",
       "sector": "Materialer",
-      "score": 4.0,
+      "score": 3.7037037037037033,
       "factor_scores": {
-        "momentum": 4.0,
+        "momentum": 3.7037037037037033,
         "growth": null,
         "valuation": null,
         "reaction": null
