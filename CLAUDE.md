@@ -9,3 +9,9 @@
   stående regel (ikke bare for én enkelt gang).
 - Planen for prosjektet (faser, arkitekturvalg, begrunnelser) ligger i
   `/root/.claude/plans/prosjekt-oslo-b-rs-case-finner-valiant-pie.md`.
+- **Ikke still oppklaringsspørsmål underveis.** Brukeren har bedt om å slippe
+  å bli avbrutt med spørsmål — ta det mest fornuftige valget selv (beste
+  skjønn) og fortsett, i stedet for å stoppe og spørre. Gjelder også
+  AskUserQuestion. Dette gjelder spesifikt dette repoet. Unntak: still
+  spørsmål kun hvis noe er reelt irreversibelt/farlig OG det ikke finnes noe
+  fornuftig standardvalg (svært sjeldent) — ellers bare velg og gå videre.
