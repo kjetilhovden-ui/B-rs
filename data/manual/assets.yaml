@@ -47,7 +47,7 @@ assets:
     name: Yara International
     asset_type: aksje
     sector: Materialer
-  - ticker: AKERBP.OL
+  - ticker: AKRBP.OL
     name: Aker BP
     asset_type: aksje
     sector: Energi
@@ -135,7 +135,7 @@ assets:
     name: DNB SMB
     asset_type: fond
     sector: Fond - Norge småselskaper
-  - ticker: 0P0001BJ8S.IR
+  - ticker: 0P00000MW4.IR
     name: DNB Miljøinvest
     asset_type: fond
     sector: Fond - Miljø

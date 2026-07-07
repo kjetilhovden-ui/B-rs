@@ -53,8 +53,12 @@ def test_first_matching_row_returns_none_when_nothing_matches():
 
 
 class _FakeTicker:
-    def __init__(self, income_stmt):
+    def __init__(self, income_stmt, quarterly_income_stmt=None):
         self.income_stmt = income_stmt
+        # Real yfinance.Ticker always has this attribute (empty DataFrame if
+        # unavailable) - matching that shape here avoids spurious
+        # AttributeError-driven retries in tests.
+        self.quarterly_income_stmt = quarterly_income_stmt if quarterly_income_stmt is not None else pd.DataFrame()
 
 
 def test_income_statement_fundamentals_computes_eps_and_growth():
@@ -84,3 +88,25 @@ def test_income_statement_fundamentals_handles_empty_statement():
     ticker = _FakeTicker(pd.DataFrame())
     eps, earnings_growth, revenue_growth = _income_statement_fundamentals(ticker, {})
     assert (eps, earnings_growth, revenue_growth) == (None, None, None)
+
+
+def test_income_statement_fundamentals_falls_back_to_quarterly():
+    # Annual is empty, but quarterly has 5 periods (so a same-quarter-last-year
+    # comparison, 4 periods back, is possible).
+    quarterly = pd.DataFrame(
+        {
+            "2026-Q4": {"Net Income": 130.0, "Total Revenue": 1300.0},
+            "2026-Q3": {"Net Income": 125.0, "Total Revenue": 1250.0},
+            "2026-Q2": {"Net Income": 120.0, "Total Revenue": 1200.0},
+            "2026-Q1": {"Net Income": 115.0, "Total Revenue": 1150.0},
+            "2025-Q4": {"Net Income": 100.0, "Total Revenue": 1000.0},
+        }
+    )
+    ticker = _FakeTicker(pd.DataFrame(), quarterly_income_stmt=quarterly)
+    info = {"sharesOutstanding": 65.0}
+
+    eps, earnings_growth, revenue_growth = _income_statement_fundamentals(ticker, info)
+
+    assert eps == 130.0 / 65.0
+    assert earnings_growth == 0.3
+    assert revenue_growth == 0.3

@@ -71,22 +71,35 @@ class YFinanceSource:
 
 
 def _income_statement_fundamentals(t: "yf.Ticker", info: dict) -> tuple[float | None, float | None, float | None]:
+    # Annual statements first (1 period back = YoY); if Yahoo has nothing
+    # there (common for smaller/foreign listings), fall back to quarterly
+    # statements (4 periods back = same quarter last year), which are
+    # sometimes populated even when the annual view is empty.
+    result = _statement_fundamentals(t, info, lambda ticker: ticker.income_stmt, periods_back=1)
+    if result != (None, None, None):
+        return result
+    return _statement_fundamentals(t, info, lambda ticker: ticker.quarterly_income_stmt, periods_back=4)
+
+
+def _statement_fundamentals(
+    t: "yf.Ticker", info: dict, get_stmt, periods_back: int
+) -> tuple[float | None, float | None, float | None]:
     try:
-        stmt = _with_retry(lambda: t.income_stmt)
+        stmt = _with_retry(lambda: get_stmt(t))
     except Exception:
         return None, None, None
     if stmt is None or stmt.empty:
         return None, None, None
 
-    columns = sorted(stmt.columns, reverse=True)  # most recent fiscal year first
-    if len(columns) < 2:
+    columns = sorted(stmt.columns, reverse=True)  # most recent period first
+    if len(columns) <= periods_back:
         return None, None, None
 
     net_income_row = _first_matching_row(stmt, ["Net Income", "Net Income Common Stockholders"])
     revenue_row = _first_matching_row(stmt, ["Total Revenue", "Operating Revenue"])
 
-    earnings_growth = _yoy_growth(net_income_row, columns)
-    revenue_growth = _yoy_growth(revenue_row, columns)
+    earnings_growth = _yoy_growth(net_income_row, columns, periods_back)
+    revenue_growth = _yoy_growth(revenue_row, columns, periods_back)
 
     trailing_eps = None
     shares = _as_float(info.get("sharesOutstanding"))
@@ -105,11 +118,11 @@ def _first_matching_row(df, row_names: list[str]):
     return None
 
 
-def _yoy_growth(row, columns) -> float | None:
+def _yoy_growth(row, columns, periods_back: int = 1) -> float | None:
     if row is None:
         return None
     latest = row.get(columns[0])
-    prior = row.get(columns[1])
+    prior = row.get(columns[periods_back])
     if latest is None or prior is None or _is_nan(latest) or _is_nan(prior) or prior == 0:
         return None
     return (float(latest) - float(prior)) / abs(float(prior))
