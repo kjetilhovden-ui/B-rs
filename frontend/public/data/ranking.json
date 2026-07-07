@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T22:19:31+00:00",
+  "generated_at": "2026-07-07T22:52:58+00:00",
   "default_weights": {
     "growth": 0.3,
     "momentum": 0.25,
@@ -31,7 +31,23 @@
       "next_report_date": null,
       "latest_close": 331.20001220703125,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 331.20001220703125,
+        "basis_days": 48,
+        "week": {
+          "low": 314.1146802726203,
+          "mid": 333.54191215162103,
+          "high": 352.96914403062175,
+          "projected_return_pct": 0.007070953678364777
+        },
+        "month": {
+          "low": 301.22201425770805,
+          "mid": 341.0359919743083,
+          "high": 380.84996969090844,
+          "projected_return_pct": 0.02969800544913206
+        }
+      }
     },
     {
       "ticker": "ORK.OL",
@@ -56,7 +72,23 @@
       "next_report_date": null,
       "latest_close": 107.0999984741211,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 107.0999984741211,
+        "basis_days": 48,
+        "week": {
+          "low": 102.5914354262193,
+          "mid": 106.47407906486896,
+          "high": 110.35672270351861,
+          "projected_return_pct": -0.005844252270492605
+        },
+        "month": {
+          "low": 96.51408531386029,
+          "mid": 104.47113695526212,
+          "high": 112.42818859666396,
+          "projected_return_pct": -0.024545859536068942
+        }
+      }
     },
     {
       "ticker": "ENTRA.OL",
@@ -81,7 +113,23 @@
       "next_report_date": null,
       "latest_close": 107.80000305175781,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 107.80000305175781,
+        "basis_days": 48,
+        "week": {
+          "low": 105.70240840267346,
+          "mid": 108.0784308808474,
+          "high": 110.45445335902137,
+          "projected_return_pct": 0.002582818378547987
+        },
+        "month": {
+          "low": 104.1000028634018,
+          "mid": 108.96939993393416,
+          "high": 113.83879700446654,
+          "projected_return_pct": 0.010847837189901545
+        }
+      }
     },
     {
       "ticker": "0P0000PS3V.IR",
@@ -106,7 +154,23 @@
       "next_report_date": null,
       "latest_close": 884.8494873046875,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 884.8494873046875,
+        "basis_days": 43,
+        "week": {
+          "low": 879.6434989878863,
+          "mid": 896.1256365515572,
+          "high": 912.6077741152283,
+          "projected_return_pct": 0.012743578889577788
+        },
+        "month": {
+          "low": 898.4309837149985,
+          "mid": 932.2093141415404,
+          "high": 965.9876445680823,
+          "projected_return_pct": 0.053523031336226705
+        }
+      }
     },
     {
       "ticker": "0P00000MVB.IR",
@@ -131,7 +195,23 @@
       "next_report_date": null,
       "latest_close": 6922.51513671875,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 6922.51513671875,
+        "basis_days": 43,
+        "week": {
+          "low": 6786.482302736587,
+          "mid": 7003.528520241861,
+          "high": 7220.574737747134,
+          "projected_return_pct": 0.011702882828438479
+        },
+        "month": {
+          "low": 6817.958966572958,
+          "mid": 7262.771347515818,
+          "high": 7707.583728458679,
+          "projected_return_pct": 0.04915210787944162
+        }
+      }
     },
     {
       "ticker": "STB.OL",
@@ -156,7 +236,23 @@
       "next_report_date": null,
       "latest_close": 184.39999389648438,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 184.39999389648438,
+        "basis_days": 48,
+        "week": {
+          "low": 181.34871327782773,
+          "mid": 186.16042590888725,
+          "high": 190.97213853994674,
+          "projected_return_pct": 0.009546811663080162
+        },
+        "month": {
+          "low": 181.93273186249388,
+          "mid": 191.79380834857642,
+          "high": 201.65488483465896,
+          "projected_return_pct": 0.04009660898493668
+        }
+      }
     },
     {
       "ticker": "GJF.OL",
@@ -181,7 +277,23 @@
       "next_report_date": null,
       "latest_close": 272.6000061035156,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 272.6000061035156,
+        "basis_days": 48,
+        "week": {
+          "low": 266.4862578606066,
+          "mid": 274.00206054157894,
+          "high": 281.51786322255134,
+          "projected_return_pct": 0.005143266348757611
+        },
+        "month": {
+          "low": 263.08582273566344,
+          "mid": 278.48863474338157,
+          "high": 293.8914467510997,
+          "projected_return_pct": 0.021601718664781965
+        }
+      }
     },
     {
       "ticker": "0P0001EFNB.IR",
@@ -206,7 +318,23 @@
       "next_report_date": null,
       "latest_close": 1354.2652587890625,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 1354.2652587890625,
+        "basis_days": 46,
+        "week": {
+          "low": 1333.5652938939177,
+          "mid": 1353.1620255659382,
+          "high": 1372.7587572379587,
+          "projected_return_pct": -0.0008146359924428449
+        },
+        "month": {
+          "low": 1309.4703303285564,
+          "mid": 1349.6316792519397,
+          "high": 1389.7930281753227,
+          "projected_return_pct": -0.0034214711682599482
+        }
+      }
     },
     {
       "ticker": "0P00000ODE.IR",
@@ -231,7 +359,23 @@
       "next_report_date": null,
       "latest_close": 2243.52099609375,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 2243.52099609375,
+        "basis_days": 46,
+        "week": {
+          "low": 2198.7723151337464,
+          "mid": 2241.2583647119163,
+          "high": 2283.7444142900854,
+          "projected_return_pct": -0.0010085180329371748
+        },
+        "month": {
+          "low": 2146.9474526365243,
+          "mid": 2234.0179442900485,
+          "high": 2321.0884359435727,
+          "projected_return_pct": -0.004235775738336134
+        }
+      }
     },
     {
       "ticker": "ELK.OL",
@@ -256,7 +400,23 @@
       "next_report_date": null,
       "latest_close": 31.799999237060547,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 31.799999237060547,
+        "basis_days": 48,
+        "week": {
+          "low": 30.386331132025187,
+          "mid": 32.21939027450361,
+          "high": 34.05244941698203,
+          "projected_return_pct": 0.013188397720283362
+        },
+        "month": {
+          "low": 29.804788237507708,
+          "mid": 33.56144159432141,
+          "high": 37.31809495113511,
+          "projected_return_pct": 0.055391270425190126
+        }
+      }
     },
     {
       "ticker": "EQNR.OL",
@@ -281,7 +441,23 @@
       "next_report_date": "2026-07-23",
       "latest_close": 316.5,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 316.5,
+        "basis_days": 48,
+        "week": {
+          "low": 295.4281067725221,
+          "mid": 313.4215423075523,
+          "high": 331.41497784258246,
+          "projected_return_pct": -0.009726564589092417
+        },
+        "month": {
+          "low": 266.6949080841351,
+          "mid": 303.5704776917195,
+          "high": 340.44604729930387,
+          "projected_return_pct": -0.04085157127418815
+        }
+      }
     },
     {
       "ticker": "SUBC.OL",
@@ -306,7 +482,23 @@
       "next_report_date": null,
       "latest_close": 335.6000061035156,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 335.6000061035156,
+        "basis_days": 48,
+        "week": {
+          "low": 321.2164405510592,
+          "mid": 339.5559382402707,
+          "high": 357.8954359294823,
+          "projected_return_pct": 0.011787640240789706
+        },
+        "month": {
+          "low": 314.6301350991309,
+          "mid": 352.21492107788697,
+          "high": 389.79970705664306,
+          "projected_return_pct": 0.04950808901131677
+        }
+      }
     },
     {
       "ticker": "AKSO.OL",
@@ -331,7 +523,23 @@
       "next_report_date": null,
       "latest_close": 44.97999954223633,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 44.97999954223633,
+        "basis_days": 48,
+        "week": {
+          "low": 43.64756164516835,
+          "mid": 45.55124286041708,
+          "high": 47.454924075665794,
+          "projected_return_pct": 0.012699940506765536
+        },
+        "month": {
+          "low": 43.47783594124829,
+          "mid": 47.37922147859544,
+          "high": 51.2806070159426,
+          "projected_return_pct": 0.053339750128415256
+        }
+      }
     },
     {
       "ticker": "DNB.OL",
@@ -356,7 +564,23 @@
       "next_report_date": null,
       "latest_close": 298.5,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 298.5,
+        "basis_days": 48,
+        "week": {
+          "low": 295.2669431045093,
+          "mid": 300.8546996202047,
+          "high": 306.4424561359001,
+          "projected_return_pct": 0.007888440938709244
+        },
+        "month": {
+          "low": 296.9382452231597,
+          "mid": 308.3897384048598,
+          "high": 319.84123158655996,
+          "projected_return_pct": 0.03313145194257883
+        }
+      }
     },
     {
       "ticker": "YAR.OL",
@@ -381,7 +605,23 @@
       "next_report_date": null,
       "latest_close": 430.79998779296875,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 430.79998779296875,
+        "basis_days": 48,
+        "week": {
+          "low": 404.63320357039544,
+          "mid": 423.19396199952513,
+          "high": 441.7547204286548,
+          "projected_return_pct": -0.017655584979029425
+        },
+        "month": {
+          "low": 360.8164439000733,
+          "mid": 398.8546794605057,
+          "high": 436.892915020938,
+          "projected_return_pct": -0.07415345691192358
+        }
+      }
     },
     {
       "ticker": "AUTO.OL",
@@ -406,7 +646,23 @@
       "next_report_date": null,
       "latest_close": 12.289999961853027,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 12.289999961853027,
+        "basis_days": 48,
+        "week": {
+          "low": 11.632151901829392,
+          "mid": 12.364231542801933,
+          "high": 13.096311183774477,
+          "projected_return_pct": 0.006039998468617846
+        },
+        "month": {
+          "low": 11.101455794277026,
+          "mid": 12.601772601838432,
+          "high": 14.102089409399834,
+          "projected_return_pct": 0.025367993568194955
+        }
+      }
     },
     {
       "ticker": "TEL.OL",
@@ -431,7 +687,23 @@
       "next_report_date": null,
       "latest_close": 142.10000610351562,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 142.10000610351562,
+        "basis_days": 48,
+        "week": {
+          "low": 136.4478414021754,
+          "mid": 140.46855382248603,
+          "high": 144.48926624279667,
+          "projected_return_pct": -0.011481014855418942
+        },
+        "month": {
+          "low": 127.00789808019032,
+          "mid": 135.24790652319138,
+          "high": 143.48791496619242,
+          "projected_return_pct": -0.048220262392759554
+        }
+      }
     },
     {
       "ticker": "BAKKA.OL",
@@ -456,7 +728,23 @@
       "next_report_date": null,
       "latest_close": 407.6000061035156,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 407.6000061035156,
+        "basis_days": 48,
+        "week": {
+          "low": 387.3213043996163,
+          "mid": 405.5100989911501,
+          "high": 423.69889358268387,
+          "projected_return_pct": -0.00512734808898605
+        },
+        "month": {
+          "low": 361.5464596972604,
+          "mid": 398.8223962315802,
+          "high": 436.09833276590007,
+          "projected_return_pct": -0.021534861973741406
+        }
+      }
     },
     {
       "ticker": "MOWI.OL",
@@ -481,7 +769,23 @@
       "next_report_date": null,
       "latest_close": 185.8000030517578,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 185.8000030517578,
+        "basis_days": 48,
+        "week": {
+          "low": 178.2098664779109,
+          "mid": 184.3316120524965,
+          "high": 190.45335762708206,
+          "projected_return_pct": -0.00790307306320266
+        },
+        "month": {
+          "low": 167.0869157539584,
+          "mid": 179.63276085486027,
+          "high": 192.17860595576215,
+          "projected_return_pct": -0.03319290686545117
+        }
+      }
     },
     {
       "ticker": "NOD.OL",
@@ -506,7 +810,23 @@
       "next_report_date": null,
       "latest_close": 182.3000030517578,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 182.3000030517578,
+        "basis_days": 48,
+        "week": {
+          "low": 172.42783352981075,
+          "mid": 181.93849663740366,
+          "high": 191.4491597449966,
+          "projected_return_pct": -0.001983030215591966
+        },
+        "month": {
+          "low": 161.29061678844383,
+          "mid": 180.7816761114704,
+          "high": 200.27273543449698,
+          "projected_return_pct": -0.008328726905486257
+        }
+      }
     },
     {
       "ticker": "LSG.OL",
@@ -531,7 +851,23 @@
       "next_report_date": null,
       "latest_close": 38.900001525878906,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 38.900001525878906,
+        "basis_days": 48,
+        "week": {
+          "low": 37.26282696295424,
+          "mid": 38.46786245032531,
+          "high": 39.67289793769639,
+          "projected_return_pct": -0.011108973228859752
+        },
+        "month": {
+          "low": 34.61542954648872,
+          "mid": 37.08501740855382,
+          "high": 39.55460527061892,
+          "projected_return_pct": -0.046657687561210956
+        }
+      }
     },
     {
       "ticker": "FRO.OL",
@@ -556,7 +892,23 @@
       "next_report_date": null,
       "latest_close": 371.8999938964844,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 371.8999938964844,
+        "basis_days": 48,
+        "week": {
+          "low": 355.5273181371676,
+          "mid": 377.3825203860614,
+          "high": 399.2377226349552,
+          "projected_return_pct": 0.014741937562663933
+        },
+        "month": {
+          "low": 350.1367688678072,
+          "mid": 394.9266051527081,
+          "high": 439.7164414376089,
+          "projected_return_pct": 0.061916137763188515
+        }
+      }
     },
     {
       "ticker": "NAS.OL",
@@ -581,7 +933,23 @@
       "next_report_date": null,
       "latest_close": 14.460000038146973,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 14.460000038146973,
+        "basis_days": 48,
+        "week": {
+          "low": 13.692960758416643,
+          "mid": 14.681605295614837,
+          "high": 15.670249832813033,
+          "projected_return_pct": 0.015325398124705883
+        },
+        "month": {
+          "low": 13.36462373997104,
+          "mid": 15.390742119512005,
+          "high": 17.41686049905297,
+          "projected_return_pct": 0.0643666721237647
+        }
+      }
     },
     {
       "ticker": "TGS.OL",
@@ -606,7 +974,23 @@
       "next_report_date": null,
       "latest_close": 125.80000305175781,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 125.80000305175781,
+        "basis_days": 48,
+        "week": {
+          "low": 117.9755462300416,
+          "mid": 123.9786446360101,
+          "high": 129.98174304197863,
+          "projected_return_pct": -0.01447820645122201
+        },
+        "month": {
+          "low": 105.84760694378348,
+          "mid": 118.15029770561743,
+          "high": 130.4529884674514,
+          "projected_return_pct": -0.06080846709513244
+        }
+      }
     },
     {
       "ticker": "NHY.OL",
@@ -631,7 +1015,23 @@
       "next_report_date": null,
       "latest_close": 87.30000305175781,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 87.30000305175781,
+        "basis_days": 48,
+        "week": {
+          "low": 81.71070395002901,
+          "mid": 85.78003393341154,
+          "high": 89.84936391679408,
+          "projected_return_pct": -0.01741087130827608
+        },
+        "month": {
+          "low": 72.5764879566707,
+          "mid": 80.9161327547035,
+          "high": 89.25577755273629,
+          "projected_return_pct": -0.07312565949475953
+        }
+      }
     },
     {
       "ticker": "SALM.OL",
@@ -656,7 +1056,23 @@
       "next_report_date": null,
       "latest_close": 461.3999938964844,
       "data_status": "ok",
-      "data_note": null
+      "data_note": null,
+      "prediction": {
+        "latest_close": 461.3999938964844,
+        "basis_days": 48,
+        "week": {
+          "low": 434.1004655974573,
+          "mid": 455.5049861111749,
+          "high": 476.90950662489246,
+          "projected_return_pct": -0.012776349942111298
+        },
+        "month": {
+          "low": 392.7747476235771,
+          "mid": 436.64096119818447,
+          "high": 480.5071747727918,
+          "projected_return_pct": -0.05366066975686745
+        }
+      }
     },
     {
       "ticker": "AKERBP.OL",
@@ -681,7 +1097,8 @@
       "next_report_date": null,
       "latest_close": null,
       "data_status": "missing",
-      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for AKERBP.OL"
+      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for AKERBP.OL",
+      "prediction": null
     },
     {
       "ticker": "SCHA.OL",
@@ -706,7 +1123,8 @@
       "next_report_date": null,
       "latest_close": null,
       "data_status": "missing",
-      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for SCHA.OL"
+      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for SCHA.OL",
+      "prediction": null
     },
     {
       "ticker": "0P0001BJ8S.IR",
@@ -731,7 +1149,8 @@
       "next_report_date": null,
       "latest_close": null,
       "data_status": "missing",
-      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for 0P0001BJ8S.IR"
+      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for 0P0001BJ8S.IR",
+      "prediction": null
     }
   ]
 }
