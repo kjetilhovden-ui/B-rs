@@ -58,6 +58,116 @@
   margin: 0 0 8px;
 }
 
+/* --- Top picks --- */
+
+.top-picks {
+  margin: 8px 0 32px;
+}
+
+.top-picks h2 {
+  font-size: 22px;
+  margin: 0 0 4px;
+}
+
+.top-picks__subtitle {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 0 0 16px;
+  max-width: 60ch;
+}
+
+.top-picks__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.top-pick-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  background: var(--bg-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.top-pick-card__rank {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.top-pick-card__name {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.top-pick-card__ticker {
+  color: var(--text-muted);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.top-pick-card__score {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.top-pick-card__score strong {
+  color: var(--text);
+  font-size: 15px;
+}
+
+.top-pick-card__why {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* --- Price predictions --- */
+
+.prediction-estimate {
+  font-size: 12px;
+  white-space: nowrap;
+  cursor: help;
+}
+
+.prediction-estimate--unavailable {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.prediction-estimate-block {
+  border-top: 1px dashed var(--border);
+  margin-top: 4px;
+  padding-top: 8px;
+}
+
+.prediction-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  gap: 8px;
+}
+
+.prediction-row__label {
+  color: var(--text-muted);
+}
+
+.prediction-row__range {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.prediction-disclaimer {
+  color: var(--text-muted);
+  font-size: 11px;
+  margin: 6px 0 0;
+}
+
 /* --- Ranking table --- */
 
 .table-scroll {

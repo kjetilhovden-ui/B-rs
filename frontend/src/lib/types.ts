@@ -18,6 +18,20 @@ export interface RawFactors {
 export type AssetType = 'aksje' | 'fond'
 export type DataStatus = 'ok' | 'missing' | 'stale'
 
+export interface PredictionRange {
+  low: number
+  mid: number
+  high: number
+  projected_return_pct: number
+}
+
+export interface PricePrediction {
+  latest_close: number
+  basis_days: number
+  week: PredictionRange
+  month: PredictionRange
+}
+
 export interface AssetRanking {
   ticker: string
   name: string
@@ -32,6 +46,7 @@ export interface AssetRanking {
   latest_close: number | null
   data_status: DataStatus
   data_note: string | null
+  prediction: PricePrediction | null
 }
 
 export interface RankingData {

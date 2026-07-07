@@ -8,6 +8,7 @@ must never take down the whole daily update.
 """
 
 import sqlite3
+import time
 from datetime import date
 
 from .. import config
@@ -21,7 +22,11 @@ def fetch_all(conn: sqlite3.Connection, source: PriceSource) -> list[dict]:
         "SELECT id, ticker FROM assets WHERE active = 1"
     ).fetchall()
 
-    for asset in assets:
+    for i, asset in enumerate(assets):
+        if i > 0:
+            # A short pause between assets meaningfully cuts down on
+            # Yahoo rate-limiting a burst of back-to-back requests.
+            time.sleep(config.FETCH_DELAY_BETWEEN_ASSETS_SECONDS)
         result = _fetch_one(conn, source, asset["id"], asset["ticker"])
         results.append(result)
 
@@ -31,7 +36,8 @@ def fetch_all(conn: sqlite3.Connection, source: PriceSource) -> list[dict]:
 
 def _fetch_one(conn: sqlite3.Connection, source: PriceSource, asset_id: int, ticker: str) -> dict:
     try:
-        bars = source.get_history(ticker, config.MOMENTUM_LOOKBACK_DAYS)
+        lookback = max(config.MOMENTUM_LOOKBACK_DAYS, config.PREDICTION_VOLATILITY_LOOKBACK_DAYS)
+        bars = source.get_history(ticker, lookback)
     except Exception as exc:
         note = f"Klarte ikke hente kursdata: {exc}"
         conn.execute(

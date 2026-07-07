@@ -62,6 +62,7 @@ def _asset_payload(row: dict) -> dict:
         "latest_close": row["latest_close"],
         "data_status": row["data_status"],
         "data_note": row["data_note"],
+        "prediction": row["prediction"],
     }
 
 

@@ -18,6 +18,28 @@ FRONTEND_DATA_DIR = REPO_ROOT / "frontend" / "public" / "data"
 # two calendar weeks.
 MOMENTUM_LOOKBACK_DAYS = 10
 
+# How many trading days of price history to keep for the volatility
+# estimate behind the week/month price predictions. ~30 trading days is
+# roughly six calendar weeks.
+PREDICTION_VOLATILITY_LOOKBACK_DAYS = 30
+
+# Trading days in the two prediction horizons shown in the UI.
+PREDICTION_HORIZON_WEEK_DAYS = 5
+PREDICTION_HORIZON_MONTH_DAYS = 21
+
+# Width of the predicted price range, in standard deviations of daily
+# returns. 1.0 = roughly a 68% historical range - deliberately not a
+# "confidence interval" in the statistical sense, just a rough band. Shown
+# in the UI as an explicitly uncertain estimate, never a guarantee.
+PREDICTION_RANGE_STD_DEVS = 1.0
+
+# Network calls to Yahoo Finance are unofficial and get rate-limited under
+# bursty use. A short pause between assets and a few retries meaningfully
+# cuts down on transient per-ticker failures.
+FETCH_RETRY_ATTEMPTS = 3
+FETCH_RETRY_BACKOFF_SECONDS = 1.5
+FETCH_DELAY_BETWEEN_ASSETS_SECONDS = 0.4
+
 # How many quarters of report-reaction history to average (Fase 2+).
 REPORT_REACTION_LOOKBACK = 8
 REPORT_REACTION_MIN_SAMPLES = 2

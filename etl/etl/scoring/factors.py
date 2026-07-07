@@ -8,6 +8,7 @@ import sqlite3
 from datetime import date
 
 from .. import config
+from .prediction import compute_price_prediction
 
 
 def build_raw_factor_table(conn: sqlite3.Connection) -> list[dict]:
@@ -55,6 +56,7 @@ def _build_row(conn: sqlite3.Connection, asset: sqlite3.Row) -> dict:
         "earnings_yield": _earnings_yield(latest),
         "reaction_pct": _reaction_pct(conn, asset_id),
         "next_report_date": _next_report_date(conn, asset_id),
+        "prediction": compute_price_prediction(ok_snapshots),
     }
 
 
