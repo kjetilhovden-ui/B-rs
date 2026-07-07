@@ -1,8 +1,7 @@
 # Euronext API for rapportdatoer — foreløpige funn
 
-Status: innledende research gjort (juli 2026), konkret implementasjonsforsøk
-ikke gjort ennå (planlagt Fase 3). Dette dokumentet oppdateres når forsøket
-er gjort.
+Status: konkret forsøk gjort (juli 2026) — konklusjon: **ikke brukbart uten
+betalt/lisensiert avtale**. Se "Oppdatering" nederst.
 
 ## Bakgrunn
 
@@ -42,3 +41,28 @@ https://www.euronext.com/en/data/how-access-market-data/web-services
 3. Uansett utfall: `data/manual/report_dates.yaml` forblir en fungerende
    fallback som aldri fjernes, siden den ikke er avhengig av at noen
    ekstern kilde fortsetter å virke.
+
+## Oppdatering (konkret forsøk)
+
+Prøvde direkte å hente en konkret produktside for en enkeltaksje
+(`live.euronext.com/en/product/equities/...` for Equinor) i tillegg til de
+generelle API-sidene. Samme resultat: **HTTP 403 på all automatisert
+henting**, også for vanlige produktsider — ikke bare API-endepunktene. Dette
+bekrefter bot-beskyttelse (sannsynligvis Cloudflare) som blokkerer
+ikke-nettleser-klienter generelt, ikke bare "premium"-endepunkter.
+
+Viktig: dette ville blokkert *uansett* om forsøket kjørte fra en
+utviklingsøkt eller fra selve GitHub Actions-jobben — begge er
+automatiserte klienter uten ekte nettleser, så konklusjonen gjelder
+produksjonsmiljøet også, ikke bare en lokal begrensning.
+
+**Konklusjon: Euronext scraping/API droppes som datakilde** for dette
+prosjektet, både for kurs- og rapportdata. `report_dates.yaml` er den
+varige løsningen for rapportdatoer, ikke en midlertidig fallback.
+
+For vekst-/verdsettelsestallene som egentlig var det underliggende
+problemet (Yahoo sine "info"-felt var tomme for de fleste Oslo Børs-
+tickerne): løst uten Euronext, ved å hente rådata fra yfinance sitt
+resultatregnskap (`Ticker.income_stmt`) og regne ut vekst/EPS selv i stedet
+for å stole på Yahoos ferdigberegnede sammendragsfelt. Se
+`etl/etl/sources/yfinance_source.py`.

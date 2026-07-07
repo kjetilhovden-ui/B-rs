@@ -1,6 +1,7 @@
 import type { AssetRanking } from '../lib/types'
 import { formatPrice, formatScore } from '../lib/format'
 import { HorizonBadge } from './HorizonBadge'
+import { PredictionEstimate } from './PredictionEstimate'
 import { ReportCalendarBadge } from './ReportCalendarBadge'
 
 export function RankingTable({
@@ -25,6 +26,7 @@ export function RankingTable({
             <th>Tidshorisont</th>
             <th>Rapportdato</th>
             <th>Siste kurs</th>
+            <th>Estimat 1 uke</th>
           </tr>
         </thead>
         <tbody>
@@ -36,7 +38,7 @@ export function RankingTable({
           <>
             <tbody>
               <tr className="ranking-table__section-divider">
-                <td colSpan={7}>Mangler data</td>
+                <td colSpan={8}>Mangler data</td>
               </tr>
             </tbody>
             <tbody>
@@ -85,6 +87,9 @@ function AssetRow({
         <ReportCalendarBadge nextReportDate={asset.next_report_date} warningDays={reportWarningDays} />
       </td>
       <td>{formatPrice(asset.latest_close)}</td>
+      <td>
+        <PredictionEstimate prediction={asset.prediction} compact />
+      </td>
     </tr>
   )
 }

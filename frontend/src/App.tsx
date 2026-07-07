@@ -3,6 +3,7 @@ import { DisclaimerBanner } from './components/DisclaimerBanner'
 import { LastUpdatedStamp } from './components/LastUpdatedStamp'
 import { MarketOutlookPanel } from './components/MarketOutlookPanel'
 import { RankingTable } from './components/RankingTable'
+import { TopPicks } from './components/TopPicks'
 import { useDailyData } from './lib/useDailyData'
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
     <div className="app-shell">
       <header className="app-header">
         <h1>Oslo Børs Case-finner</h1>
-        <p className="app-subtitle">Rangering av aksjer og fond etter antatt fremtidig potensiale</p>
+        <p className="app-subtitle">
+          Hjelper deg finne de mest lovende casene å undersøke videre - ikke en fasit, og ikke automatisert handel.
+        </p>
       </header>
 
       <DisclaimerBanner />
@@ -37,10 +40,15 @@ function App() {
       )}
 
       {ranking && (
-        <section>
-          <LastUpdatedStamp isoTimestamp={ranking.generated_at} />
-          <RankingTable assets={ranking.assets} reportWarningDays={ranking.report_warning_days} />
-        </section>
+        <>
+          <TopPicks assets={ranking.assets} reportWarningDays={ranking.report_warning_days} />
+
+          <section>
+            <h2>Full rangering</h2>
+            <LastUpdatedStamp isoTimestamp={ranking.generated_at} />
+            <RankingTable assets={ranking.assets} reportWarningDays={ranking.report_warning_days} />
+          </section>
+        </>
       )}
 
       {outlook && <MarketOutlookPanel outlook={outlook} />}
