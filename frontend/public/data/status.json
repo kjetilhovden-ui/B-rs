@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-07-07T22:19:31+00:00",
+  "last_run_status": "partial",
+  "warnings": [
+    "AKERBP.OL: Klarte ikke hente kursdata: Ingen kursdata funnet for AKERBP.OL",
+    "SCHA.OL: Klarte ikke hente kursdata: Ingen kursdata funnet for SCHA.OL",
+    "0P0001BJ8S.IR: Klarte ikke hente kursdata: Ingen kursdata funnet for 0P0001BJ8S.IR"
+  ],
+  "asset_count": 29
+}

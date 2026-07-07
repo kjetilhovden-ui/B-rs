@@ -1,0 +1,737 @@
+{
+  "generated_at": "2026-07-07T22:19:31+00:00",
+  "default_weights": {
+    "growth": 0.3,
+    "momentum": 0.25,
+    "valuation": 0.25,
+    "reaction": 0.2
+  },
+  "report_warning_days": 14,
+  "assets": [
+    {
+      "ticker": "KOG.OL",
+      "name": "Kongsberg Gruppen",
+      "asset_type": "aksje",
+      "sector": "Industri",
+      "score": 100.0,
+      "factor_scores": {
+        "momentum": 100.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.1288344209164614,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 331.20001220703125,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "ORK.OL",
+      "name": "Orkla",
+      "asset_type": "aksje",
+      "sector": "Forbruksvarer",
+      "score": 96.0,
+      "factor_scores": {
+        "momentum": 96.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.06673303631888103,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 107.0999984741211,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "ENTRA.OL",
+      "name": "Entra",
+      "asset_type": "aksje",
+      "sector": "Eiendom",
+      "score": 92.0,
+      "factor_scores": {
+        "momentum": 92.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.05893909450031589,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 107.80000305175781,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "0P0000PS3V.IR",
+      "name": "DNB Global Indeks",
+      "asset_type": "fond",
+      "sector": "Fond - Globalt",
+      "score": 88.0,
+      "factor_scores": {
+        "momentum": 88.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.020391179041901544,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 884.8494873046875,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "0P00000MVB.IR",
+      "name": "DNB Teknologi",
+      "asset_type": "fond",
+      "sector": "Fond - Teknologi",
+      "score": 84.0,
+      "factor_scores": {
+        "momentum": 84.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.0170722634903315,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 6922.51513671875,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "STB.OL",
+      "name": "Storebrand",
+      "asset_type": "aksje",
+      "sector": "Finans",
+      "score": 80.0,
+      "factor_scores": {
+        "momentum": 80.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.014301379543906577,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 184.39999389648438,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "GJF.OL",
+      "name": "Gjensidige Forsikring",
+      "asset_type": "aksje",
+      "sector": "Finans",
+      "score": 76.0,
+      "factor_scores": {
+        "momentum": 76.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.014136973523502057,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 272.6000061035156,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "0P0001EFNB.IR",
+      "name": "DNB Norge",
+      "asset_type": "fond",
+      "sector": "Fond - Norge",
+      "score": 72.0,
+      "factor_scores": {
+        "momentum": 72.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.01256000190571337,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 1354.2652587890625,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "0P00000ODE.IR",
+      "name": "DNB SMB",
+      "asset_type": "fond",
+      "sector": "Fond - Norge småselskaper",
+      "score": 68.0,
+      "factor_scores": {
+        "momentum": 68.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.008146719277672698,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 2243.52099609375,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "ELK.OL",
+      "name": "Elkem",
+      "asset_type": "aksje",
+      "sector": "Materialer",
+      "score": 64.0,
+      "factor_scores": {
+        "momentum": 64.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.001259414606122601,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 31.799999237060547,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "EQNR.OL",
+      "name": "Equinor",
+      "asset_type": "aksje",
+      "sector": "Energi",
+      "score": 60.0,
+      "factor_scores": {
+        "momentum": 60.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.0,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": "2026-07-23",
+      "latest_close": 316.5,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "SUBC.OL",
+      "name": "Subsea7",
+      "asset_type": "aksje",
+      "sector": "Energitjenester",
+      "score": 56.00000000000001,
+      "factor_scores": {
+        "momentum": 56.00000000000001,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.001190458025251116,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 335.6000061035156,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "AKSO.OL",
+      "name": "Aker Solutions",
+      "asset_type": "aksje",
+      "sector": "Energitjenester",
+      "score": 52.0,
+      "factor_scores": {
+        "momentum": 52.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.0035445248022932126,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 44.97999954223633,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "DNB.OL",
+      "name": "DNB Bank",
+      "asset_type": "aksje",
+      "sector": "Finans",
+      "score": 48.0,
+      "factor_scores": {
+        "momentum": 48.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.005,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 298.5,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "YAR.OL",
+      "name": "Yara International",
+      "asset_type": "aksje",
+      "sector": "Materialer",
+      "score": 44.0,
+      "factor_scores": {
+        "momentum": 44.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.005999091232420794,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 430.79998779296875,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "AUTO.OL",
+      "name": "AutoStore Holdings",
+      "asset_type": "aksje",
+      "sector": "Teknologi",
+      "score": 40.0,
+      "factor_scores": {
+        "momentum": 40.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.01046699787780591,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 12.289999961853027,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "TEL.OL",
+      "name": "Telenor",
+      "asset_type": "aksje",
+      "sector": "Telekom",
+      "score": 36.0,
+      "factor_scores": {
+        "momentum": 36.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.018646387371118296,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 142.10000610351562,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "BAKKA.OL",
+      "name": "Bakkafrost",
+      "asset_type": "aksje",
+      "sector": "Sjømat",
+      "score": 32.0,
+      "factor_scores": {
+        "momentum": 32.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.029061415064808784,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 407.6000061035156,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "MOWI.OL",
+      "name": "Mowi",
+      "asset_type": "aksje",
+      "sector": "Sjømat",
+      "score": 28.000000000000004,
+      "factor_scores": {
+        "momentum": 28.000000000000004,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.044238637421490624,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 185.8000030517578,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "NOD.OL",
+      "name": "Nordic Semiconductor",
+      "asset_type": "aksje",
+      "sector": "Teknologi",
+      "score": 24.0,
+      "factor_scores": {
+        "momentum": 24.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.0475443632963131,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 182.3000030517578,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "LSG.OL",
+      "name": "Lerøy Seafood Group",
+      "asset_type": "aksje",
+      "sector": "Sjømat",
+      "score": 20.0,
+      "factor_scores": {
+        "momentum": 20.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.053988265167109625,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 38.900001525878906,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "FRO.OL",
+      "name": "Frontline",
+      "asset_type": "aksje",
+      "sector": "Shipping",
+      "score": 16.0,
+      "factor_scores": {
+        "momentum": 16.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.06369591523919649,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 371.8999938964844,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "NAS.OL",
+      "name": "Norwegian Air Shuttle",
+      "asset_type": "aksje",
+      "sector": "Luftfart",
+      "score": 12.0,
+      "factor_scores": {
+        "momentum": 12.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.07485605039842291,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 14.460000038146973,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "TGS.OL",
+      "name": "TGS",
+      "asset_type": "aksje",
+      "sector": "Energitjenester",
+      "score": 8.0,
+      "factor_scores": {
+        "momentum": 8.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.07771254632731894,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 125.80000305175781,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "NHY.OL",
+      "name": "Norsk Hydro",
+      "asset_type": "aksje",
+      "sector": "Materialer",
+      "score": 4.0,
+      "factor_scores": {
+        "momentum": 4.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.10589918478621833,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 87.30000305175781,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "SALM.OL",
+      "name": "SalMar",
+      "asset_type": "aksje",
+      "sector": "Sjømat",
+      "score": 0.0,
+      "factor_scores": {
+        "momentum": 0.0,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.1310734578220633,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 461.3999938964844,
+      "data_status": "ok",
+      "data_note": null
+    },
+    {
+      "ticker": "AKERBP.OL",
+      "name": "Aker BP",
+      "asset_type": "aksje",
+      "sector": "Energi",
+      "score": null,
+      "factor_scores": {
+        "momentum": null,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": null,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": null,
+      "data_status": "missing",
+      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for AKERBP.OL"
+    },
+    {
+      "ticker": "SCHA.OL",
+      "name": "Schibsted A",
+      "asset_type": "aksje",
+      "sector": "Media/Teknologi",
+      "score": null,
+      "factor_scores": {
+        "momentum": null,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": null,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": null,
+      "data_status": "missing",
+      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for SCHA.OL"
+    },
+    {
+      "ticker": "0P0001BJ8S.IR",
+      "name": "DNB Miljøinvest",
+      "asset_type": "fond",
+      "sector": "Fond - Miljø",
+      "score": null,
+      "factor_scores": {
+        "momentum": null,
+        "growth": null,
+        "valuation": null,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": null,
+        "growth_pct": null,
+        "earnings_yield": null,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": null,
+      "data_status": "missing",
+      "data_note": "Klarte ikke hente kursdata: Ingen kursdata funnet for 0P0001BJ8S.IR"
+    }
+  ]
+}
