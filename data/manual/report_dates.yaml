@@ -1,0 +1,17 @@
+# Manuelt vedlikeholdt kalender over neste kvartalsrapport per aksje/fond.
+#
+# Dette er MVP-løsningen for rapportdatoer (se docs/euronext-investigation.md
+# for hvorfor vi ikke bruker en automatisk kilde ennå). Du oppdaterer denne
+# fila selv innimellom, f.eks. når et selskap kunngjør neste rapportdato.
+# Fond har normalt ikke kvartalsrapporter på samme måte som aksjer, så de
+# kan utelates her.
+#
+# Format: ticker må matche en ticker i assets.yaml. report_date er ISO-dato
+# (ÅÅÅÅ-MM-DD). Du kan ha flere fremtidige datoer per ticker; systemet bruker
+# automatisk den nærmeste fremtidige.
+#
+# Eksempel (fjern "example: true" og fyll inn ekte datoer etter hvert):
+report_dates:
+  - ticker: EQNR.OL
+    report_date: "2026-07-23"
+    notes: "Estimat - bekreft mot selskapets IR-side før du stoler på datoen."

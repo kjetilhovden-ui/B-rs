@@ -1,0 +1,141 @@
+# Aksje-/fondsunivers for Oslo Børs Case-finner.
+#
+# Dette er en vanlig tekstfil du kan redigere selv (også fra GitHub sin
+# nettleser-editor, fungerer fint fra iPad Safari):
+# https://github.com/kjetilhovden-ui/B-rs/edit/main/data/manual/assets.yaml
+#
+# Felt:
+#   ticker      Yahoo Finance-ticker. Aksjer på Oslo Børs bruker ".OL"
+#               (f.eks. EQNR.OL). DNB-fond bruker Morningstar-stil koder
+#               (f.eks. "0P0001EFNB.IR") siden fond ikke har vanlige tickere.
+#   name        Visningsnavn i grensesnittet.
+#   asset_type  "aksje" eller "fond".
+#   sector      Fritekst, brukes til sektor-nedbrytning av treffsikkerhet.
+#
+# For å legge til en aksje: finn ticker på https://finance.yahoo.com/lookup
+# og legg til en ny rad i samme format. Systemet håndterer ukjente/feilende
+# tickere pent (viser "data ikke tilgjengelig" i stedet for å krasje), så det
+# er trygt å eksperimentere.
+
+assets:
+  # --- Aksjer: Oslo Børs (Euronext Oslo), et utvalg store/likvide selskaper ---
+  - ticker: EQNR.OL
+    name: Equinor
+    asset_type: aksje
+    sector: Energi
+  - ticker: DNB.OL
+    name: DNB Bank
+    asset_type: aksje
+    sector: Finans
+  - ticker: TEL.OL
+    name: Telenor
+    asset_type: aksje
+    sector: Telekom
+  - ticker: MOWI.OL
+    name: Mowi
+    asset_type: aksje
+    sector: Sjømat
+  - ticker: NHY.OL
+    name: Norsk Hydro
+    asset_type: aksje
+    sector: Materialer
+  - ticker: ORK.OL
+    name: Orkla
+    asset_type: aksje
+    sector: Forbruksvarer
+  - ticker: YAR.OL
+    name: Yara International
+    asset_type: aksje
+    sector: Materialer
+  - ticker: AKERBP.OL
+    name: Aker BP
+    asset_type: aksje
+    sector: Energi
+  - ticker: SALM.OL
+    name: SalMar
+    asset_type: aksje
+    sector: Sjømat
+  - ticker: SUBC.OL
+    name: Subsea7
+    asset_type: aksje
+    sector: Energitjenester
+  - ticker: STB.OL
+    name: Storebrand
+    asset_type: aksje
+    sector: Finans
+  - ticker: GJF.OL
+    name: Gjensidige Forsikring
+    asset_type: aksje
+    sector: Finans
+  - ticker: SCHA.OL
+    name: Schibsted A
+    asset_type: aksje
+    sector: Media/Teknologi
+  - ticker: TGS.OL
+    name: TGS
+    asset_type: aksje
+    sector: Energitjenester
+  - ticker: KOG.OL
+    name: Kongsberg Gruppen
+    asset_type: aksje
+    sector: Industri
+  - ticker: NOD.OL
+    name: Nordic Semiconductor
+    asset_type: aksje
+    sector: Teknologi
+  - ticker: AKSO.OL
+    name: Aker Solutions
+    asset_type: aksje
+    sector: Energitjenester
+  - ticker: BAKKA.OL
+    name: Bakkafrost
+    asset_type: aksje
+    sector: Sjømat
+  - ticker: FRO.OL
+    name: Frontline
+    asset_type: aksje
+    sector: Shipping
+  - ticker: LSG.OL
+    name: Lerøy Seafood Group
+    asset_type: aksje
+    sector: Sjømat
+  - ticker: NAS.OL
+    name: Norwegian Air Shuttle
+    asset_type: aksje
+    sector: Luftfart
+  - ticker: ELK.OL
+    name: Elkem
+    asset_type: aksje
+    sector: Materialer
+  - ticker: ENTRA.OL
+    name: Entra
+    asset_type: aksje
+    sector: Eiendom
+  - ticker: AUTO.OL
+    name: AutoStore Holdings
+    asset_type: aksje
+    sector: Teknologi
+
+  # --- Fond: DNB-fond ---
+  # Ticker-koder verifisert i implementasjonen (Fase 1) mot ekte yfinance-
+  # oppslag, siden fond-tickere på Yahoo Finance er skjøre/kan endre seg.
+  - ticker: 0P0001EFNB.IR
+    name: DNB Norge
+    asset_type: fond
+    sector: Fond - Norge
+  - ticker: 0P0000PS3V.IR
+    name: DNB Global Indeks
+    asset_type: fond
+    sector: Fond - Globalt
+  - ticker: 0P00000MVB.IR
+    name: DNB Teknologi
+    asset_type: fond
+    sector: Fond - Teknologi
+  - ticker: 0P00000ODE.IR
+    name: DNB SMB
+    asset_type: fond
+    sector: Fond - Norge småselskaper
+  - ticker: 0P0001BJ8S.IR
+    name: DNB Miljøinvest
+    asset_type: fond
+    sector: Fond - Miljø

@@ -1,0 +1,12 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+etl.egg-info/
+
+# Editor/OS
+.DS_Store
