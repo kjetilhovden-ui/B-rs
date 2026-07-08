@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T11:03:53+00:00",
+  "generated_at": "2026-07-08T17:07:43+00:00",
   "default_weights": {
     "growth": 0.3,
     "momentum": 0.25,
@@ -13,39 +13,80 @@
       "name": "Aker Solutions",
       "asset_type": "aksje",
       "sector": "Energitjenester",
-      "score": 75.96801346801345,
+      "score": 77.12542087542087,
       "factor_scores": {
-        "momentum": 70.37037037037037,
+        "momentum": 74.07407407407408,
         "growth": 68.18181818181817,
         "valuation": 90.9090909090909,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": 0.021691003444372713,
+        "momentum_pct": 0.023461738958190818,
         "growth_pct": 0.517,
-        "earnings_yield": 0.114384749078287,
+        "earnings_yield": 0.11418684706620175,
         "reaction_pct": null
       },
       "horizon": "Middels sikt (6–12 mnd)",
       "horizon_explanation": "Moderat fundamental vekst (persentil 68).",
       "next_report_date": null,
-      "latest_close": 46.15999984741211,
+      "latest_close": 46.2400016784668,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 46.15999984741211,
+        "latest_close": 46.2400016784668,
         "basis_days": 50,
         "week": {
-          "low": 44.91717163618048,
-          "mid": 46.84311705819715,
-          "high": 48.76906248021383,
-          "projected_return_pct": 0.014798899762633752
+          "low": 45.000511703739924,
+          "mid": 46.93244027856527,
+          "high": 48.86436885339061,
+          "projected_return_pct": 0.014974882676548971
         },
         "month": {
-          "low": 45.08207854924325,
-          "mid": 49.02909213270928,
-          "high": 52.97610571617532,
-          "projected_return_pct": 0.062155379003061756
+          "low": 45.18896840096322,
+          "mid": 49.148243798880365,
+          "high": 53.10751919679751,
+          "projected_return_pct": 0.06289450724150568
+        }
+      }
+    },
+    {
+      "ticker": "YAR.OL",
+      "name": "Yara International",
+      "asset_type": "aksje",
+      "sector": "Materialer",
+      "score": 74.58964646464645,
+      "factor_scores": {
+        "momentum": 77.77777777777779,
+        "growth": 54.54545454545454,
+        "valuation": 95.45454545454545,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.024716539447810375,
+        "growth_pct": 0.109,
+        "earnings_yield": 0.12190750330618357,
+        "reaction_pct": null
+      },
+      "horizon": "Middels sikt (6–12 mnd)",
+      "horizon_explanation": "Moderat fundamental vekst (persentil 55).",
+      "next_report_date": null,
+      "latest_close": 451.8999938964844,
+      "data_status": "ok",
+      "data_note": null,
+      "prediction": {
+        "latest_close": 451.8999938964844,
+        "basis_days": 50,
+        "week": {
+          "low": 426.10188975451126,
+          "mid": 446.4476743125825,
+          "high": 466.7934588706537,
+          "projected_return_pct": -0.012065323428950636
+        },
+        "month": {
+          "low": 387.3038011118211,
+          "mid": 429.0002516440964,
+          "high": 470.69670217637173,
+          "projected_return_pct": -0.05067435840159267
         }
       }
     },
@@ -62,31 +103,31 @@
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": 0.07778843206258507,
+        "momentum_pct": 0.08100283251382537,
         "growth_pct": 0.292,
-        "earnings_yield": 0.06609007100138253,
+        "earnings_yield": 0.06589354981969855,
         "reaction_pct": null
       },
       "horizon": "Kort sikt (uker)",
       "horizon_explanation": "Sterk momentum (persentil 96) og kvartalsrapport om 15 dager.",
       "next_report_date": "2026-07-23",
-      "latest_close": 335.29998779296875,
+      "latest_close": 336.29998779296875,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 335.29998779296875,
+        "latest_close": 336.29998779296875,
         "basis_days": 50,
         "week": {
-          "low": 314.89496981497075,
-          "mid": 334.13215762657615,
-          "high": 353.3693454381816,
-          "projected_return_pct": -0.0034829412732149214
+          "low": 315.8826666117222,
+          "mid": 335.2317393498368,
+          "high": 354.5808120879515,
+          "projected_return_pct": -0.0031764748198252627
         },
         "month": {
-          "low": 290.97059781791205,
-          "mid": 330.39510109411987,
-          "high": 369.8196043703277,
-          "projected_return_pct": -0.01462835334750267
+          "low": 292.1595451889284,
+          "mid": 331.81334433181473,
+          "high": 371.46714347470106,
+          "projected_return_pct": -0.013341194243266102
         }
       }
     },
@@ -95,80 +136,39 @@
       "name": "Subsea7",
       "asset_type": "aksje",
       "sector": "Energitjenester",
-      "score": 73.21127946127946,
+      "score": 74.36868686868686,
       "factor_scores": {
-        "momentum": 85.18518518518519,
+        "momentum": 88.88888888888889,
         "growth": 86.36363636363636,
         "valuation": 45.45454545454545,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": 0.03221953281522645,
+        "momentum_pct": 0.041766108264199915,
         "growth_pct": 4.667,
-        "earnings_yield": 0.0480635838150289,
+        "earnings_yield": 0.04762313693775166,
         "reaction_pct": null
       },
       "horizon": "Lang sikt (1–3 år)",
       "horizon_explanation": "Høy fundamental vekst (persentil 86), mindre avhengig av kortsiktig støy.",
       "next_report_date": null,
-      "latest_close": 346.0,
+      "latest_close": 349.20001220703125,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 346.0,
+        "latest_close": 349.20001220703125,
         "basis_days": 50,
         "week": {
-          "low": 332.3521867388655,
-          "mid": 350.97955372639274,
-          "high": 369.6069207139199,
-          "projected_return_pct": 0.014391773775701482
+          "low": 335.6592963368051,
+          "mid": 354.5529321231295,
+          "high": 373.4465679094539,
+          "projected_return_pct": 0.01532909429832619
         },
         "month": {
-          "low": 328.73938316671894,
-          "mid": 366.9141256508494,
-          "high": 405.0888681349799,
-          "projected_return_pct": 0.06044544985794622
-        }
-      }
-    },
-    {
-      "ticker": "YAR.OL",
-      "name": "Yara International",
-      "asset_type": "aksje",
-      "sector": "Materialer",
-      "score": 68.80260942760941,
-      "factor_scores": {
-        "momentum": 59.25925925925925,
-        "growth": 54.54545454545454,
-        "valuation": 95.45454545454545,
-        "reaction": null
-      },
-      "raw_factors": {
-        "momentum_pct": 0.014966000234729309,
-        "growth_pct": 0.109,
-        "earnings_yield": 0.12310098134193753,
-        "reaction_pct": null
-      },
-      "horizon": "Middels sikt (6–12 mnd)",
-      "horizon_explanation": "Moderat fundamental vekst (persentil 55).",
-      "next_report_date": null,
-      "latest_close": 447.6000061035156,
-      "data_status": "ok",
-      "data_note": null,
-      "prediction": {
-        "latest_close": 447.6000061035156,
-        "basis_days": 50,
-        "week": {
-          "low": 422.04454029608206,
-          "mid": 441.75414385757045,
-          "high": 461.4637474190588,
-          "projected_return_pct": -0.013060460603732029
-        },
-        "month": {
-          "low": 382.6547172083152,
-          "mid": 423.04738467054585,
-          "high": 463.4400521327765,
-          "projected_return_pct": -0.054853934535674526
+          "low": 332.96184471615607,
+          "mid": 371.6822758546439,
+          "high": 410.40270699313163,
+          "projected_return_pct": 0.06438219605296999
         }
       }
     },
@@ -185,31 +185,31 @@
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.0027759135206842883,
+        "momentum_pct": 0.004163711445616132,
         "growth_pct": 2.74,
-        "earnings_yield": 0.08538622310771102,
+        "earnings_yield": 0.08479613171235147,
         "reaction_pct": null
       },
       "horizon": "Lang sikt (1–3 år)",
       "horizon_explanation": "Høy fundamental vekst (persentil 82), mindre avhengig av kortsiktig støy.",
       "next_report_date": null,
-      "latest_close": 143.6999969482422,
+      "latest_close": 144.6999969482422,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 143.6999969482422,
+        "latest_close": 144.6999969482422,
         "basis_days": 50,
         "week": {
-          "low": 138.20721547366642,
-          "mid": 142.2790961341225,
-          "high": 146.3509767945786,
-          "projected_return_pct": -0.009887966905326164
+          "low": 139.26731126897573,
+          "mid": 143.36941592557204,
+          "high": 147.47152058216838,
+          "projected_return_pct": -0.009195446100431348
         },
         "month": {
-          "low": 129.3873413984282,
-          "mid": 137.7322135289395,
-          "high": 146.07708565945083,
-          "projected_return_pct": -0.04152946100236989
+          "low": 130.70474376243638,
+          "mid": 139.1115566530276,
+          "high": 147.5183695436188,
+          "projected_return_pct": -0.038620873621811665
         }
       }
     },
@@ -226,31 +226,113 @@
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.11327555788527123,
+        "momentum_pct": -0.10606055045844626,
         "growth_pct": 15.797,
-        "earnings_yield": 0.11033360090359177,
+        "earnings_yield": 0.10944309567937775,
         "reaction_pct": null
       },
       "horizon": "Lang sikt (1–3 år)",
       "horizon_explanation": "Høy fundamental vekst (persentil 100), mindre avhengig av kortsiktig støy.",
       "next_report_date": null,
-      "latest_close": 368.70001220703125,
+      "latest_close": 371.70001220703125,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 368.70001220703125,
+        "latest_close": 371.70001220703125,
         "basis_days": 50,
         "week": {
-          "low": 351.8980103828827,
-          "mid": 373.62751741582935,
-          "high": 395.357024448776,
-          "projected_return_pct": 0.013364537688247143
+          "low": 354.9387192673566,
+          "mid": 376.9771031394688,
+          "high": 399.015487011581,
+          "projected_return_pct": 0.014197177183567866
         },
         "month": {
-          "low": 344.8632963369477,
-          "mid": 389.3955340839831,
-          "high": 433.9277718310184,
-          "projected_return_pct": 0.056131058290638
+          "low": 348.6985472234986,
+          "mid": 393.863794123269,
+          "high": 439.02904102303927,
+          "projected_return_pct": 0.05962814417098504
+        }
+      }
+    },
+    {
+      "ticker": "MOWI.OL",
+      "name": "Mowi",
+      "asset_type": "aksje",
+      "sector": "Sjømat",
+      "score": 65.44612794612793,
+      "factor_scores": {
+        "momentum": 18.51851851851852,
+        "growth": 90.9090909090909,
+        "valuation": 81.81818181818183,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.06494166745502451,
+        "growth_pct": 4.8,
+        "earnings_yield": 0.10027129513834125,
+        "reaction_pct": null
+      },
+      "horizon": "Lang sikt (1–3 år)",
+      "horizon_explanation": "Høy fundamental vekst (persentil 91), mindre avhengig av kortsiktig støy.",
+      "next_report_date": null,
+      "latest_close": 184.3000030517578,
+      "data_status": "ok",
+      "data_note": null,
+      "prediction": {
+        "latest_close": 184.3000030517578,
+        "basis_days": 50,
+        "week": {
+          "low": 176.6818481976399,
+          "mid": 182.7566363748999,
+          "high": 188.8314245521599,
+          "projected_return_pct": -0.008374208634302011
+        },
+        "month": {
+          "low": 165.36825193575123,
+          "mid": 177.81786300895456,
+          "high": 190.2674740821579,
+          "projected_return_pct": -0.03517167626406845
+        }
+      }
+    },
+    {
+      "ticker": "GJF.OL",
+      "name": "Gjensidige Forsikring",
+      "asset_type": "aksje",
+      "sector": "Finans",
+      "score": 64.73063973063972,
+      "factor_scores": {
+        "momentum": 92.5925925925926,
+        "growth": 61.36363636363637,
+        "valuation": 40.909090909090914,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.04483277828910952,
+        "growth_pct": 0.292,
+        "earnings_yield": 0.04738181818181818,
+        "reaction_pct": null
+      },
+      "horizon": "Middels sikt (6–12 mnd)",
+      "horizon_explanation": "Moderat fundamental vekst (persentil 61).",
+      "next_report_date": null,
+      "latest_close": 275.0,
+      "data_status": "ok",
+      "data_note": null,
+      "prediction": {
+        "latest_close": 275.0,
+        "basis_days": 50,
+        "week": {
+          "low": 269.127754262554,
+          "mid": 276.6003449345937,
+          "high": 284.0729356066334,
+          "projected_return_pct": 0.005819436125795301
+        },
+        "month": {
+          "low": 266.4071949831816,
+          "mid": 281.72144872529356,
+          "high": 297.0357024674055,
+          "projected_return_pct": 0.024441631728340265
         }
       }
     },
@@ -259,9 +341,9 @@
       "name": "DNB Global Indeks",
       "asset_type": "fond",
       "sector": "Fond - Globalt",
-      "score": 66.66666666666666,
+      "score": 62.96296296296296,
       "factor_scores": {
-        "momentum": 66.66666666666666,
+        "momentum": 62.96296296296296,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -296,84 +378,125 @@
       }
     },
     {
-      "ticker": "MOWI.OL",
-      "name": "Mowi",
+      "ticker": "NAS.OL",
+      "name": "Norwegian Air Shuttle",
       "asset_type": "aksje",
-      "sector": "Sjømat",
-      "score": 66.60353535353534,
+      "sector": "Luftfart",
+      "score": 59.680134680134685,
       "factor_scores": {
-        "momentum": 22.22222222222222,
-        "growth": 90.9090909090909,
-        "valuation": 81.81818181818183,
+        "momentum": 3.7037037037037033,
+        "growth": 72.72727272727273,
+        "valuation": 100.0,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.05936079068859328,
-        "growth_pct": 4.8,
-        "earnings_yield": 0.0996763786859565,
+        "momentum_pct": -0.1459375023841858,
+        "growth_pct": 0.9985239852398524,
+        "earnings_yield": 0.21734357909191362,
         "reaction_pct": null
       },
       "horizon": "Lang sikt (1–3 år)",
-      "horizon_explanation": "Høy fundamental vekst (persentil 91), mindre avhengig av kortsiktig støy.",
+      "horizon_explanation": "Høy fundamental vekst (persentil 73), mindre avhengig av kortsiktig støy.",
       "next_report_date": null,
-      "latest_close": 185.39999389648438,
+      "latest_close": 13.664999961853027,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 185.39999389648438,
+        "latest_close": 13.664999961853027,
         "basis_days": 50,
         "week": {
-          "low": 177.89252291894746,
-          "mid": 183.95600900683124,
-          "high": 190.019495094715,
-          "projected_return_pct": -0.007788484019365022
+          "low": 12.8449660066377,
+          "mid": 13.790694248737147,
+          "high": 14.736422490836596,
+          "projected_return_pct": 0.00919826470801353
         },
         "month": {
-          "low": 166.90880867741598,
-          "mid": 179.33525735994118,
-          "high": 191.7617060424664,
-          "projected_return_pct": -0.03271163288133309
+          "low": 12.254749819812215,
+          "mid": 14.192915966766328,
+          "high": 16.131082113720442,
+          "projected_return_pct": 0.038632711773656826
         }
       }
     },
     {
-      "ticker": "GJF.OL",
-      "name": "Gjensidige Forsikring",
+      "ticker": "ORK.OL",
+      "name": "Orkla",
       "asset_type": "aksje",
-      "sector": "Finans",
-      "score": 64.73063973063972,
+      "sector": "Forbruksvarer",
+      "score": 59.46969696969696,
       "factor_scores": {
-        "momentum": 92.5925925925926,
-        "growth": 61.36363636363637,
-        "valuation": 40.909090909090914,
+        "momentum": 66.66666666666666,
+        "growth": 50.0,
+        "valuation": 63.63636363636363,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": 0.04407285352560334,
-        "growth_pct": 0.292,
-        "earnings_yield": 0.047416304871951656,
+        "momentum_pct": 0.021194574986141405,
+        "growth_pct": -0.045,
+        "earnings_yield": 0.060660377358490565,
         "reaction_pct": null
       },
       "horizon": "Middels sikt (6–12 mnd)",
-      "horizon_explanation": "Moderat fundamental vekst (persentil 61).",
+      "horizon_explanation": "Moderat fundamental vekst (persentil 50).",
       "next_report_date": null,
-      "latest_close": 274.79998779296875,
+      "latest_close": 106.0,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 274.79998779296875,
+        "latest_close": 106.0,
         "basis_days": 50,
         "week": {
-          "low": 268.909828227817,
-          "mid": 276.3792111246846,
-          "high": 283.8485940215522,
-          "projected_return_pct": 0.005746810050463422
+          "low": 101.40360243379438,
+          "mid": 105.30074890535052,
+          "high": 109.19789537690664,
+          "projected_return_pct": -0.006596708440089522
         },
         "month": {
-          "low": 266.12504602691484,
-          "mid": 281.43272578617535,
-          "high": 296.7404055454359,
-          "projected_return_pct": 0.024136602211946374
+          "low": 95.07637179811837,
+          "mid": 103.06314540247214,
+          "high": 111.04991900682592,
+          "projected_return_pct": -0.02770617544837599
+        }
+      }
+    },
+    {
+      "ticker": "ENTRA.OL",
+      "name": "Entra",
+      "asset_type": "aksje",
+      "sector": "Eiendom",
+      "score": 59.26978114478115,
+      "factor_scores": {
+        "momentum": 81.48148148148148,
+        "growth": 40.909090909090914,
+        "valuation": 59.09090909090909,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": 0.03281854803046367,
+        "growth_pct": -0.079,
+        "earnings_yield": 0.058224299065420565,
+        "reaction_pct": null
+      },
+      "horizon": "Usikker horisont",
+      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
+      "next_report_date": null,
+      "latest_close": 107.0,
+      "data_status": "ok",
+      "data_note": null,
+      "prediction": {
+        "latest_close": 107.0,
+        "basis_days": 50,
+        "week": {
+          "low": 104.7630473928135,
+          "mid": 107.18808598429877,
+          "high": 109.61312457578403,
+          "projected_return_pct": 0.0017578129373715574
+        },
+        "month": {
+          "low": 102.82011092355447,
+          "mid": 107.78996113405478,
+          "high": 112.75981134455508,
+          "projected_return_pct": 0.007382814336960541
         }
       }
     },
@@ -382,9 +505,9 @@
       "name": "DNB Teknologi",
       "asset_type": "fond",
       "sector": "Fond - Teknologi",
-      "score": 62.96296296296296,
+      "score": 59.25925925925925,
       "factor_scores": {
-        "momentum": 62.96296296296296,
+        "momentum": 59.25925925925925,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -419,125 +542,43 @@
       }
     },
     {
-      "ticker": "ORK.OL",
-      "name": "Orkla",
+      "ticker": "DNB.OL",
+      "name": "DNB Bank",
       "asset_type": "aksje",
-      "sector": "Forbruksvarer",
-      "score": 62.94191919191918,
+      "sector": "Finans",
+      "score": 58.55429292929292,
       "factor_scores": {
-        "momentum": 77.77777777777779,
-        "growth": 50.0,
-        "valuation": 63.63636363636363,
+        "momentum": 55.55555555555556,
+        "growth": 45.45454545454545,
+        "valuation": 77.27272727272727,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": 0.026974906936824646,
-        "growth_pct": -0.045,
-        "earnings_yield": 0.06031895020674872,
-        "reaction_pct": null
-      },
-      "horizon": "Middels sikt (6–12 mnd)",
-      "horizon_explanation": "Moderat fundamental vekst (persentil 50).",
-      "next_report_date": null,
-      "latest_close": 106.5999984741211,
-      "data_status": "ok",
-      "data_note": null,
-      "prediction": {
-        "latest_close": 106.5999984741211,
-        "basis_days": 50,
-        "week": {
-          "low": 102.07195985900583,
-          "mid": 105.95557597718634,
-          "high": 109.83919209536685,
-          "projected_return_pct": -0.00604523926978475
-        },
-        "month": {
-          "low": 95.93437935561857,
-          "mid": 103.89342398699513,
-          "high": 111.8524686183717,
-          "projected_return_pct": -0.025390004933095952
-        }
-      }
-    },
-    {
-      "ticker": "ENTRA.OL",
-      "name": "Entra",
-      "asset_type": "aksje",
-      "sector": "Eiendom",
-      "score": 60.164141414141405,
-      "factor_scores": {
-        "momentum": 88.88888888888889,
-        "growth": 40.909090909090914,
-        "valuation": 54.54545454545454,
-        "reaction": null
-      },
-      "raw_factors": {
-        "momentum_pct": 0.03281854803046367,
-        "growth_pct": -0.079,
-        "earnings_yield": 0.0583177570093458,
+        "momentum_pct": 0.013974117889593974,
+        "growth_pct": -0.077,
+        "earnings_yield": 0.09368067226890757,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 107.0,
+      "latest_close": 297.5,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 107.0,
+        "latest_close": 297.5,
         "basis_days": 50,
         "week": {
-          "low": 104.7630473928135,
-          "mid": 107.18808598429877,
-          "high": 109.61312457578403,
-          "projected_return_pct": 0.0017578129373715574
+          "low": 294.13030180718397,
+          "mid": 299.65415168409305,
+          "high": 305.1780015610022,
+          "projected_return_pct": 0.007240845996951611
         },
         "month": {
-          "low": 102.82011092355447,
-          "mid": 107.78996113405478,
-          "high": 112.75981134455508,
-          "projected_return_pct": 0.007382814336960541
-        }
-      }
-    },
-    {
-      "ticker": "NAS.OL",
-      "name": "Norwegian Air Shuttle",
-      "asset_type": "aksje",
-      "sector": "Luftfart",
-      "score": 59.680134680134685,
-      "factor_scores": {
-        "momentum": 3.7037037037037033,
-        "growth": 72.72727272727273,
-        "valuation": 100.0,
-        "reaction": null
-      },
-      "raw_factors": {
-        "momentum_pct": -0.14531248807907104,
-        "growth_pct": 0.9985239852398524,
-        "earnings_yield": 0.2171846404808276,
-        "reaction_pct": null
-      },
-      "horizon": "Lang sikt (1–3 år)",
-      "horizon_explanation": "Høy fundamental vekst (persentil 73), mindre avhengig av kortsiktig støy.",
-      "next_report_date": null,
-      "latest_close": 13.675000190734863,
-      "data_status": "ok",
-      "data_note": null,
-      "prediction": {
-        "latest_close": 13.675000190734863,
-        "basis_days": 50,
-        "week": {
-          "low": 12.856063840920333,
-          "mid": 13.80173514868583,
-          "high": 14.747406456451328,
-          "projected_return_pct": 0.009267638477755464
-        },
-        "month": {
-          "low": 12.269237547838193,
-          "mid": 14.207287014128928,
-          "high": 16.145336480419665,
-          "projected_return_pct": 0.03892408160657295
+          "low": 295.2269135277431,
+          "mid": 306.547437073191,
+          "high": 317.867960618639,
+          "projected_return_pct": 0.030411553187196766
         }
       }
     },
@@ -546,80 +587,80 @@
       "name": "Aker BP",
       "asset_type": "aksje",
       "sector": "Energi",
-      "score": 57.80723905723905,
+      "score": 56.64983164983164,
       "factor_scores": {
-        "momentum": 74.07407407407408,
+        "momentum": 70.37037037037037,
         "growth": 77.27272727272727,
         "valuation": 18.181818181818183,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": 0.02409636518857647,
+        "momentum_pct": 0.02214258436281713,
         "growth_pct": 1.398,
-        "earnings_yield": 0.028966613672496023,
+        "earnings_yield": 0.029085696647101002,
         "reaction_pct": null
       },
       "horizon": "Lang sikt (1–3 år)",
       "horizon_explanation": "Høy fundamental vekst (persentil 77), mindre avhengig av kortsiktig støy.",
       "next_report_date": null,
-      "latest_close": 314.5,
+      "latest_close": 313.8999938964844,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 314.5,
+        "latest_close": 313.8999938964844,
         "basis_days": 50,
         "week": {
-          "low": 296.380689888025,
-          "mid": 312.3388050492589,
-          "high": 328.2969202104927,
-          "projected_return_pct": -0.0068718440405123
+          "low": 295.79564389429333,
+          "mid": 311.68102859434435,
+          "high": 327.5664132943954,
+          "projected_return_pct": -0.007069019895781752
         },
         "month": {
-          "low": 272.71857713195186,
-          "mid": 305.4229812068873,
-          "high": 338.1273852818227,
-          "projected_return_pct": -0.028861744970151662
+          "low": 272.0249886435462,
+          "mid": 304.5803396274963,
+          "high": 337.1356906114464,
+          "projected_return_pct": -0.029689883562283356
         }
       }
     },
     {
-      "ticker": "DNB.OL",
-      "name": "DNB Bank",
+      "ticker": "STB.OL",
+      "name": "Storebrand",
       "asset_type": "aksje",
       "sector": "Finans",
-      "score": 57.396885521885515,
+      "score": 52.18855218855219,
       "factor_scores": {
-        "momentum": 51.85185185185185,
-        "growth": 45.45454545454545,
-        "valuation": 77.27272727272727,
+        "momentum": 85.18518518518519,
+        "growth": 22.727272727272727,
+        "valuation": 54.54545454545454,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": 0.010906653965917461,
-        "growth_pct": -0.077,
-        "earnings_yield": 0.09396493400702481,
+        "momentum_pct": 0.03623188529064592,
+        "growth_pct": -0.386,
+        "earnings_yield": 0.05814954467410788,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 296.6000061035156,
+      "latest_close": 185.89999389648438,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 296.6000061035156,
+        "latest_close": 185.89999389648438,
         "basis_days": 50,
         "week": {
-          "low": 293.10143710174503,
-          "mid": 298.6585726071703,
-          "high": 304.21570811259556,
-          "projected_return_pct": 0.00694054774542446
+          "low": 182.99792503012242,
+          "mid": 187.75473708684376,
+          "high": 192.51154914356513,
+          "projected_return_pct": 0.009977101943274867
         },
         "month": {
-          "low": 293.85724663409337,
-          "mid": 305.2459854188651,
-          "high": 316.6347242036369,
-          "projected_return_pct": 0.02915030053078273
+          "low": 183.94135150636453,
+          "mid": 193.68991529599387,
+          "high": 203.4384790856232,
+          "projected_return_pct": 0.04190382816175443
         }
       }
     },
@@ -628,9 +669,9 @@
       "name": "DNB Norge",
       "asset_type": "fond",
       "sector": "Fond - Norge",
-      "score": 55.55555555555556,
+      "score": 51.85185185185185,
       "factor_scores": {
-        "momentum": 55.55555555555556,
+        "momentum": 51.85185185185185,
         "growth": null,
         "valuation": null,
         "reaction": null
@@ -661,47 +702,6 @@
           "mid": 1349.6316792519397,
           "high": 1389.7930281753227,
           "projected_return_pct": -0.0034214711682599482
-        }
-      }
-    },
-    {
-      "ticker": "STB.OL",
-      "name": "Storebrand",
-      "asset_type": "aksje",
-      "sector": "Finans",
-      "score": 52.45159932659932,
-      "factor_scores": {
-        "momentum": 81.48148148148148,
-        "growth": 22.727272727272727,
-        "valuation": 59.09090909090909,
-        "reaction": null
-      },
-      "raw_factors": {
-        "momentum_pct": 0.027870680992804552,
-        "growth_pct": -0.386,
-        "earnings_yield": 0.058622561593295666,
-        "reaction_pct": null
-      },
-      "horizon": "Usikker horisont",
-      "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
-      "next_report_date": null,
-      "latest_close": 184.39999389648438,
-      "data_status": "ok",
-      "data_note": null,
-      "prediction": {
-        "latest_close": 184.39999389648438,
-        "basis_days": 50,
-        "week": {
-          "low": 181.34968068073618,
-          "mid": 186.09066092673493,
-          "high": 190.83164117273364,
-          "projected_return_pct": 0.009168476606347642
-        },
-        "month": {
-          "low": 181.78467719090952,
-          "mid": 191.50079542353674,
-          "high": 201.21691365616397,
-          "projected_return_pct": 0.0385076017466601
         }
       }
     },
@@ -759,31 +759,72 @@
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": 0.09834940613504092,
+        "momentum_pct": 0.10660248040336937,
         "growth_pct": -0.263,
-        "earnings_yield": 0.017000626498946743,
+        "earnings_yield": 0.016873835320010674,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 319.3999938964844,
+      "latest_close": 321.79998779296875,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 319.3999938964844,
+        "latest_close": 321.79998779296875,
         "basis_days": 50,
         "week": {
-          "low": 301.85298287055866,
-          "mid": 320.42074609064537,
-          "high": 338.98850931073207,
-          "projected_return_pct": 0.00319584287309607
+          "low": 304.4004649987531,
+          "mid": 323.0671481687548,
+          "high": 341.73383133875654,
+          "projected_return_pct": 0.003937726612349354
         },
         "month": {
-          "low": 285.63456200191575,
-          "mid": 323.6871531119606,
-          "high": 361.73974422200536,
-          "projected_return_pct": 0.013422540067003493
+          "low": 288.8667446899154,
+          "mid": 327.1220613712702,
+          "high": 365.37737805262503,
+          "projected_return_pct": 0.016538451771867288
+        }
+      }
+    },
+    {
+      "ticker": "NOD.OL",
+      "name": "Nordic Semiconductor",
+      "asset_type": "aksje",
+      "sector": "Teknologi",
+      "score": 41.84553872053872,
+      "factor_scores": {
+        "momentum": 14.814814814814813,
+        "growth": 95.45454545454545,
+        "valuation": 4.545454545454546,
+        "reaction": null
+      },
+      "raw_factors": {
+        "momentum_pct": -0.06747785808803157,
+        "growth_pct": 7.848,
+        "earnings_yield": 0.007591933295744463,
+        "reaction_pct": null
+      },
+      "horizon": "Lang sikt (1–3 år)",
+      "horizon_explanation": "Høy fundamental vekst (persentil 95), mindre avhengig av kortsiktig støy.",
+      "next_report_date": null,
+      "latest_close": 168.60000610351562,
+      "data_status": "ok",
+      "data_note": null,
+      "prediction": {
+        "latest_close": 168.60000610351562,
+        "basis_days": 50,
+        "week": {
+          "low": 157.66919601397433,
+          "mid": 167.00262953622072,
+          "high": 176.33606305846715,
+          "projected_return_pct": -0.009474356521162542
+        },
+        "month": {
+          "low": 142.76317776491396,
+          "mid": 161.8910245208771,
+          "high": 181.01887127684026,
+          "projected_return_pct": -0.03979229738888267
         }
       }
     },
@@ -829,84 +870,43 @@
       }
     },
     {
-      "ticker": "NOD.OL",
-      "name": "Nordic Semiconductor",
-      "asset_type": "aksje",
-      "sector": "Teknologi",
-      "score": 40.688131313131315,
-      "factor_scores": {
-        "momentum": 11.11111111111111,
-        "growth": 95.45454545454545,
-        "valuation": 4.545454545454546,
-        "reaction": null
-      },
-      "raw_factors": {
-        "momentum_pct": -0.07964606699232815,
-        "growth_pct": 7.848,
-        "earnings_yield": 0.007692307974459868,
-        "reaction_pct": null
-      },
-      "horizon": "Lang sikt (1–3 år)",
-      "horizon_explanation": "Høy fundamental vekst (persentil 95), mindre avhengig av kortsiktig støy.",
-      "next_report_date": null,
-      "latest_close": 166.39999389648438,
-      "data_status": "ok",
-      "data_note": null,
-      "prediction": {
-        "latest_close": 166.39999389648438,
-        "basis_days": 50,
-        "week": {
-          "low": 155.34627345962556,
-          "mid": 164.60811866576498,
-          "high": 173.86996387190442,
-          "projected_return_pct": -0.010768481348827984
-        },
-        "month": {
-          "low": 139.89298356161305,
-          "mid": 158.87411792746298,
-          "high": 177.85525229331287,
-          "projected_return_pct": -0.04522762166507753
-        }
-      }
-    },
-    {
       "ticker": "BAKKA.OL",
       "name": "Bakkafrost",
       "asset_type": "aksje",
       "sector": "Sjømat",
-      "score": 35.658670033670035,
+      "score": 36.81607744107744,
       "factor_scores": {
-        "momentum": 25.925925925925924,
+        "momentum": 29.629629629629626,
         "growth": 31.818181818181817,
         "valuation": 50.0,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.04854368863548968,
+        "momentum_pct": -0.04900603769746217,
         "growth_pct": -0.19255617592499522,
-        "earnings_yield": 0.05259961049309391,
+        "earnings_yield": 0.05262518308507201,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 411.6000061035156,
+      "latest_close": 411.3999938964844,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 411.6000061035156,
+        "latest_close": 411.3999938964844,
         "basis_days": 50,
         "week": {
-          "low": 391.8846219795173,
-          "mid": 409.98012140819975,
-          "high": 428.07562083688225,
-          "projected_return_pct": -0.003935579862232676
+          "low": 391.6727406070374,
+          "mid": 409.76098227556,
+          "high": 427.84922394408267,
+          "projected_return_pct": -0.003983985525621436
         },
         "month": {
-          "low": 367.71175203695725,
-          "mid": 404.7964903831891,
-          "high": 441.8812287294209,
-          "projected_return_pct": -0.01652943542137724
+          "low": 367.446280724576,
+          "mid": 404.5161450886022,
+          "high": 441.5860094526283,
+          "projected_return_pct": -0.01673273920761003
         }
       }
     },
@@ -915,9 +915,9 @@
       "name": "Norsk Hydro",
       "asset_type": "aksje",
       "sector": "Materialer",
-      "score": 28.20917508417508,
+      "score": 27.051767676767675,
       "factor_scores": {
-        "momentum": 14.814814814814813,
+        "momentum": 11.11111111111111,
         "growth": 36.36363636363637,
         "valuation": 31.818181818181817,
         "reaction": null
@@ -956,39 +956,39 @@
       "name": "Lerøy Seafood Group",
       "asset_type": "aksje",
       "sector": "Sjømat",
-      "score": 22.327441077441076,
+      "score": 21.170033670033668,
       "factor_scores": {
-        "momentum": 29.629629629629626,
+        "momentum": 25.925925925925924,
         "growth": 4.545454545454546,
         "valuation": 36.36363636363637,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.045982612292151157,
+        "momentum_pct": -0.04985482547205956,
         "growth_pct": -0.8631157103651911,
-        "earnings_yield": 0.043886354144046534,
+        "earnings_yield": 0.04406520820076385,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 39.41999816894531,
+      "latest_close": 39.2599983215332,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 39.41999816894531,
+        "latest_close": 39.2599983215332,
         "basis_days": 50,
         "week": {
-          "low": 37.83750245669913,
-          "mid": 39.05238318969313,
-          "high": 40.26726392268714,
-          "projected_return_pct": -0.00932559605093501
+          "low": 37.66715098896313,
+          "mid": 38.87796461096359,
+          "high": 40.088778232964046,
+          "projected_return_pct": -0.009730864159514746
         },
         "month": {
-          "low": 35.38625064458565,
-          "mid": 37.87601525608615,
-          "high": 40.36577986758665,
-          "projected_return_pct": -0.039167503413927045
+          "low": 35.174027222862435,
+          "mid": 37.65545673714081,
+          "high": 40.136886251419185,
+          "projected_return_pct": -0.040869629469961935
         }
       }
     },
@@ -997,39 +997,39 @@
       "name": "AutoStore Holdings",
       "asset_type": "aksje",
       "sector": "Teknologi",
-      "score": 19.70749158249158,
+      "score": 20.864898989898986,
       "factor_scores": {
-        "momentum": 18.51851851851852,
+        "momentum": 22.22222222222222,
         "growth": 18.181818181818183,
         "valuation": 22.727272727272727,
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.07313067688934478,
+        "momentum_pct": -0.06491371872641771,
         "growth_pct": -0.4011713030746706,
-        "earnings_yield": 0.032801419216216654,
+        "earnings_yield": 0.03251318069236922,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 11.279999732971191,
+      "latest_close": 11.380000114440918,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 11.279999732971191,
+        "latest_close": 11.380000114440918,
         "basis_days": 50,
         "week": {
-          "low": 10.557899393126112,
-          "mid": 11.250743014444318,
-          "high": 11.943586635762525,
-          "projected_return_pct": -0.0025936807818671033
+          "low": 10.667835170923992,
+          "mid": 11.3601036748592,
+          "high": 12.05237217879441,
+          "projected_return_pct": -0.0017483690142031277
         },
         "month": {
-          "low": 9.737214619926958,
-          "mid": 11.157121515158323,
-          "high": 12.577028410389687,
-          "projected_return_pct": -0.010893459283841833
+          "low": 9.87770681286799,
+          "mid": 11.29643506819771,
+          "high": 12.715163323527428,
+          "projected_return_pct": -0.007343149859653136
         }
       }
     },
@@ -1046,31 +1046,31 @@
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.009579978489267404,
+        "momentum_pct": -0.016212210742210232,
         "growth_pct": -0.8057324840764332,
-        "earnings_yield": -0.0007440476528371018,
+        "earnings_yield": -0.000749063670411985,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 134.39999389648438,
+      "latest_close": 133.5,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 134.39999389648438,
+        "latest_close": 133.5,
         "basis_days": 50,
         "week": {
-          "low": 126.25987014105262,
-          "mid": 133.46179261752357,
-          "high": 140.66371509399454,
-          "projected_return_pct": -0.006980664594995467
+          "low": 125.46150919355263,
+          "mid": 132.47157590694508,
+          "high": 139.48164262033754,
+          "projected_return_pct": -0.007703551258838339
         },
         "month": {
-          "low": 115.69999951751788,
-          "mid": 130.45954852484903,
-          "high": 145.2190975321802,
-          "projected_return_pct": -0.029318791298980962
+          "low": 114.81425711352445,
+          "mid": 129.18061880916935,
+          "high": 143.54698050481426,
+          "projected_return_pct": -0.03235491528712102
         }
       }
     },
@@ -1087,31 +1087,31 @@
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.03309996540426533,
+        "momentum_pct": -0.026734568763469285,
         "growth_pct": -2.3688524590163933,
-        "earnings_yield": 0.01711652450180247,
+        "earnings_yield": 0.01700457819808196,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 30.3799991607666,
+      "latest_close": 30.579999923706055,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 30.3799991607666,
+        "latest_close": 30.579999923706055,
         "basis_days": 50,
         "week": {
-          "low": 28.87791135344792,
-          "mid": 30.627504232055315,
-          "high": 32.37709711066272,
-          "projected_return_pct": 0.008146974263526261
+          "low": 29.096650516428703,
+          "mid": 30.848711935628547,
+          "high": 32.60077335482839,
+          "projected_return_pct": 0.00878718157596151
         },
         "month": {
-          "low": 27.833922042666494,
-          "mid": 31.419520460179204,
-          "high": 35.00511887769191,
-          "projected_return_pct": 0.0342172919068103
+          "low": 28.117932953484907,
+          "mid": 31.70859037378053,
+          "high": 35.29924779407615,
+          "projected_return_pct": 0.036906162619038334
         }
       }
     },
@@ -1128,31 +1128,31 @@
         "reaction": null
       },
       "raw_factors": {
-        "momentum_pct": -0.15294119890998392,
+        "momentum_pct": -0.16102942298440373,
         "growth_pct": -0.6278208150892557,
-        "earnings_yield": 0.03283420225869821,
+        "earnings_yield": 0.03315074540389153,
         "reaction_pct": null
       },
       "horizon": "Usikker horisont",
       "horizon_explanation": "Verken tydelig vekst eller momentum i dataene som er tilgjengelig nå.",
       "next_report_date": null,
-      "latest_close": 460.79998779296875,
+      "latest_close": 456.3999938964844,
       "data_status": "ok",
       "data_note": null,
       "prediction": {
-        "latest_close": 460.79998779296875,
+        "latest_close": 456.3999938964844,
         "basis_days": 50,
         "week": {
-          "low": 434.06365728175575,
-          "mid": 455.092165438486,
-          "high": 476.1206735952163,
-          "projected_return_pct": -0.01238676759046968
+          "low": 429.3716320004623,
+          "mid": 450.315182652083,
+          "high": 471.2587333037037,
+          "projected_return_pct": -0.013332189583204607
         },
         "month": {
-          "low": 393.73151635142216,
-          "mid": 436.82713390414114,
-          "high": 479.92275145686017,
-          "projected_return_pct": -0.05202442387997266
+          "low": 387.92228019169096,
+          "mid": 430.8437866699987,
+          "high": 473.76529314830634,
+          "projected_return_pct": -0.055995196249459346
         }
       }
     },
