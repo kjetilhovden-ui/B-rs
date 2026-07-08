@@ -24,7 +24,8 @@ export function RankingTable({
             <th>Tidshorisont</th>
             <th>Rapportdato</th>
             <th>Dagens kurs</th>
-            <th>Potensiell økning (1 uke)</th>
+            <th>Potensiell økning (7 dager)</th>
+            <th>Potensiell økning (31 dager)</th>
             <th>Årsak</th>
           </tr>
         </thead>
@@ -37,7 +38,7 @@ export function RankingTable({
           <>
             <tbody>
               <tr className="ranking-table__section-divider">
-                <td colSpan={8}>Mangler data</td>
+                <td colSpan={9}>Mangler data</td>
               </tr>
             </tbody>
             <tbody>
@@ -61,7 +62,8 @@ function AssetRow({
   rank: number | null
   reportWarningDays: number
 }) {
-  const change = asset.prediction?.week.projected_return_pct ?? null
+  const weekChange = asset.prediction?.week.projected_return_pct ?? null
+  const monthChange = asset.prediction?.month.projected_return_pct ?? null
 
   return (
     <tr className={asset.data_status !== 'ok' ? 'ranking-table__row--missing' : ''}>
@@ -87,10 +89,17 @@ function AssetRow({
         <ReportCalendarBadge nextReportDate={asset.next_report_date} warningDays={reportWarningDays} />
       </td>
       <td>{formatPrice(asset.latest_close)} kr</td>
-      <td className={change !== null && change < 0 ? 'change-cell change-cell--negative' : 'change-cell change-cell--positive'}>
-        {change !== null ? formatPercent(change) : 'Ikke nok historikk'}
-      </td>
+      <ChangeCell pct={weekChange} />
+      <ChangeCell pct={monthChange} />
       <td className="reason-cell">{asset.horizon_explanation}</td>
     </tr>
+  )
+}
+
+function ChangeCell({ pct }: { pct: number | null }) {
+  return (
+    <td className={pct !== null && pct < 0 ? 'change-cell change-cell--negative' : 'change-cell change-cell--positive'}>
+      {pct !== null ? formatPercent(pct) : 'Ikke nok historikk'}
+    </td>
   )
 }
