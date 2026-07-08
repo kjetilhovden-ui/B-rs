@@ -1,5 +1,5 @@
 import type { AssetRanking } from '../lib/types'
-import { formatScore } from '../lib/format'
+import { formatPercent, formatPrice } from '../lib/format'
 import { HorizonBadge } from './HorizonBadge'
 import { PredictionEstimate } from './PredictionEstimate'
 import { ReportCalendarBadge } from './ReportCalendarBadge'
@@ -31,11 +31,26 @@ export function TopPicks({ assets, reportWarningDays }: { assets: AssetRanking[]
                 {asset.asset_type === 'fond' ? 'Fond' : 'Aksje'}
               </span>
             </div>
-            <div className="top-pick-card__score">
-              Score <strong>{formatScore(asset.score)}</strong>
+            <div className="top-pick-card__price-row">
+              <span className="top-pick-card__price-label">Dagens kurs</span>
+              <span className="top-pick-card__price-value">{formatPrice(asset.latest_close)} kr</span>
+            </div>
+            <div className="top-pick-card__price-row">
+              <span className="top-pick-card__price-label">Potensiell økning (1 uke)</span>
+              <span
+                className={`top-pick-card__change ${
+                  asset.prediction && asset.prediction.week.projected_return_pct < 0
+                    ? 'top-pick-card__change--negative'
+                    : 'top-pick-card__change--positive'
+                }`}
+              >
+                {asset.prediction ? formatPercent(asset.prediction.week.projected_return_pct) : 'Ikke nok historikk'}
+              </span>
             </div>
             <HorizonBadge horizon={asset.horizon} explanation={asset.horizon_explanation} />
-            <p className="top-pick-card__why">{asset.horizon_explanation}</p>
+            <p className="top-pick-card__why">
+              <strong>Årsak:</strong> {asset.horizon_explanation}
+            </p>
             <PredictionEstimate prediction={asset.prediction} />
             <ReportCalendarBadge nextReportDate={asset.next_report_date} warningDays={reportWarningDays} />
           </article>
