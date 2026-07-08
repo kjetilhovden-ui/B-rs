@@ -35,18 +35,8 @@ export function TopPicks({ assets, reportWarningDays }: { assets: AssetRanking[]
               <span className="top-pick-card__price-label">Dagens kurs</span>
               <span className="top-pick-card__price-value">{formatPrice(asset.latest_close)} kr</span>
             </div>
-            <div className="top-pick-card__price-row">
-              <span className="top-pick-card__price-label">Potensiell økning (1 uke)</span>
-              <span
-                className={`top-pick-card__change ${
-                  asset.prediction && asset.prediction.week.projected_return_pct < 0
-                    ? 'top-pick-card__change--negative'
-                    : 'top-pick-card__change--positive'
-                }`}
-              >
-                {asset.prediction ? formatPercent(asset.prediction.week.projected_return_pct) : 'Ikke nok historikk'}
-              </span>
-            </div>
+            <ChangeRow label="Potensiell økning (7 dager)" pct={asset.prediction?.week.projected_return_pct ?? null} />
+            <ChangeRow label="Potensiell økning (31 dager)" pct={asset.prediction?.month.projected_return_pct ?? null} />
             <HorizonBadge horizon={asset.horizon} explanation={asset.horizon_explanation} />
             <p className="top-pick-card__why">
               <strong>Årsak:</strong> {asset.horizon_explanation}
@@ -57,5 +47,20 @@ export function TopPicks({ assets, reportWarningDays }: { assets: AssetRanking[]
         ))}
       </div>
     </section>
+  )
+}
+
+function ChangeRow({ label, pct }: { label: string; pct: number | null }) {
+  return (
+    <div className="top-pick-card__price-row">
+      <span className="top-pick-card__price-label">{label}</span>
+      <span
+        className={`top-pick-card__change ${
+          pct !== null && pct < 0 ? 'top-pick-card__change--negative' : 'top-pick-card__change--positive'
+        }`}
+      >
+        {pct !== null ? formatPercent(pct) : 'Ikke nok historikk'}
+      </span>
+    </div>
   )
 }

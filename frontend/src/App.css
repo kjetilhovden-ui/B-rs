@@ -115,12 +115,14 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  flex-wrap: wrap;
   font-size: 13px;
-  gap: 8px;
+  gap: 2px 8px;
 }
 
 .top-pick-card__price-label {
   color: var(--text-muted);
+  white-space: nowrap;
 }
 
 .top-pick-card__price-value {
@@ -168,18 +170,33 @@
 
 .prediction-row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-size: 13px;
-  gap: 8px;
+  gap: 4px 8px;
 }
 
 .prediction-row__label {
   color: var(--text-muted);
+  white-space: nowrap;
 }
 
 .prediction-row__range {
   font-weight: 600;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.prediction-row__pct {
+  margin-left: 4px;
+}
+
+.prediction-row__pct--positive {
+  color: var(--success-text);
+}
+
+.prediction-row__pct--negative {
+  color: var(--danger-text);
 }
 
 .prediction-disclaimer {
