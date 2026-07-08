@@ -5,11 +5,6 @@ export function formatPercent(value: number | null, decimals = 1): string {
   return `${sign}${pct.toFixed(decimals)} %`
 }
 
-export function formatScore(value: number | null): string {
-  if (value === null || value === undefined || Number.isNaN(value)) return '–'
-  return Math.round(value).toString()
-}
-
 export function formatPrice(value: number | null): string {
   if (value === null || value === undefined || Number.isNaN(value)) return '–'
   return new Intl.NumberFormat('nb-NO', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(value)

@@ -111,14 +111,34 @@
   gap: 6px;
 }
 
-.top-pick-card__score {
+.top-pick-card__price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   font-size: 13px;
+  gap: 8px;
+}
+
+.top-pick-card__price-label {
   color: var(--text-muted);
 }
 
-.top-pick-card__score strong {
-  color: var(--text);
-  font-size: 15px;
+.top-pick-card__price-value {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.top-pick-card__change {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.top-pick-card__change--positive {
+  color: var(--success-text);
+}
+
+.top-pick-card__change--negative {
+  color: var(--danger-text);
 }
 
 .top-pick-card__why {
@@ -230,9 +250,24 @@
   max-width: 220px;
 }
 
-.score-cell {
+.change-cell {
   font-weight: 600;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.change-cell--positive {
+  color: var(--success-text);
+}
+
+.change-cell--negative {
+  color: var(--danger-text);
+}
+
+.reason-cell {
+  color: var(--text-muted);
+  font-size: 13px;
+  min-width: 220px;
 }
 
 .type-badge {

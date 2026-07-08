@@ -1,7 +1,6 @@
 import type { AssetRanking } from '../lib/types'
-import { formatPrice, formatScore } from '../lib/format'
+import { formatPercent, formatPrice } from '../lib/format'
 import { HorizonBadge } from './HorizonBadge'
-import { PredictionEstimate } from './PredictionEstimate'
 import { ReportCalendarBadge } from './ReportCalendarBadge'
 
 export function RankingTable({
@@ -22,11 +21,11 @@ export function RankingTable({
             <th>#</th>
             <th>Navn</th>
             <th>Type</th>
-            <th>Score</th>
             <th>Tidshorisont</th>
             <th>Rapportdato</th>
-            <th>Siste kurs</th>
-            <th>Estimat 1 uke</th>
+            <th>Dagens kurs</th>
+            <th>Potensiell økning (1 uke)</th>
+            <th>Årsak</th>
           </tr>
         </thead>
         <tbody>
@@ -62,6 +61,8 @@ function AssetRow({
   rank: number | null
   reportWarningDays: number
 }) {
+  const change = asset.prediction?.week.projected_return_pct ?? null
+
   return (
     <tr className={asset.data_status !== 'ok' ? 'ranking-table__row--missing' : ''}>
       <td>{rank ?? '–'}</td>
@@ -79,17 +80,17 @@ function AssetRow({
           {asset.asset_type === 'fond' ? 'Fond' : 'Aksje'}
         </span>
       </td>
-      <td className="score-cell">{formatScore(asset.score)}</td>
       <td>
         <HorizonBadge horizon={asset.horizon} explanation={asset.horizon_explanation} />
       </td>
       <td>
         <ReportCalendarBadge nextReportDate={asset.next_report_date} warningDays={reportWarningDays} />
       </td>
-      <td>{formatPrice(asset.latest_close)}</td>
-      <td>
-        <PredictionEstimate prediction={asset.prediction} compact />
+      <td>{formatPrice(asset.latest_close)} kr</td>
+      <td className={change !== null && change < 0 ? 'change-cell change-cell--negative' : 'change-cell change-cell--positive'}>
+        {change !== null ? formatPercent(change) : 'Ikke nok historikk'}
       </td>
+      <td className="reason-cell">{asset.horizon_explanation}</td>
     </tr>
   )
 }
